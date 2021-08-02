@@ -3,7 +3,7 @@ const fm = require("front-matter");
 const marked = require("marked");
 const hljs = require("highlight.js");
 
-const files = fs.readdirSync("posts");
+const files = fs.readdirSync("posts").reverse();
 
 // Use highlight.js as the highlighter for the marked library
 marked.setOptions({

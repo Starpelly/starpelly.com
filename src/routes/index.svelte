@@ -7,6 +7,8 @@
 </script>
 
 <script>
+import { onMount } from 'svelte';
+
     import Navbar from '../components/Navbar.svelte'
     export let posts;
 </script>
