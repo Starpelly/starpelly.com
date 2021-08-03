@@ -4,7 +4,7 @@
 
 	const dev = process.env.NODE_ENV === 'development';
 
-    import Navbar from '../components/NavbarPage.svelte'
+    import Navbar from '../components/Navbar.svelte'
 </script>
 
 <div class="container container_4">

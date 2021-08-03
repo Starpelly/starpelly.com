@@ -14,7 +14,7 @@
 </script>
 
 <script>
-	import Navbar from '../../components/NavbarPage.svelte'
+	import Navbar from '../../components/Navbar.svelte'
 	export let post;
 </script>
 
