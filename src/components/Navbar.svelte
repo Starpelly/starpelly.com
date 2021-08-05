@@ -74,6 +74,8 @@
             </a>
             <a class="menulink" href="https://www.youtube.com/watch?v=OYG8Ul276-w" style="background-image:url('assets/Images/tabs/terry.gif')">
             </a>
+            <a class="menulink" href="https://store.steampowered.com/app/531510/Just_Shapes__Beats/" style="background-image:url('assets/Images/tabs/shapesnbeats.gif')">
+            </a>
             <a class="menulink" href="https://www.reddit.com/r/unixporn" style="background-image:url('assets/Images/tabs/unixporn.png')">
             </a>
             <a class="menulink" href="https://myanimelist.net/anime/30721/Hacka_Doll_The_Animation" title='not "amazing" but not bad either, also it has a trap in it so who cares. ¯\_(ツ)_/¯ ' style="background-image:url('assets/Images/tabs/hackadoll.png')">
@@ -83,6 +85,10 @@
             <a class="menulink" href="https://knowyourmeme.com/" style="background-image:url('assets/Images/tabs/kym.png')">
             </a>
             <a class="menulink" style="background-image:url('assets/Images/tabs/typescript.png')" href=" ">
+            </a>
+            <a class="menulink" style="background-image:url('assets/Images/tabs/rhf.gif')" href=" ">
+            </a>
+            <a class="menulink" style="background-image:url('assets/Images/tabs/screenrecorder.png')" href="https://awesomescreenrecorder.com">
             </a>
      </div>
     </div>

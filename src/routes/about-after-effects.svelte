@@ -6,7 +6,7 @@
     <Navbar></Navbar>
 
     <div class="grid_3">
-        <div class="contenttitle" style="background-image:url('assets/bannerHome.png')">
+        <div class="contenttitle" style="background-image:url('assets/gaysecks.png')">
             <h1>Starpelly</h1>
         </div>
         <div class="contentpad">
