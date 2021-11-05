@@ -51,7 +51,7 @@
             </div>
         </div>
     </div>
-	<p style="margin-left: 8px;">Last Updated: August 1, 2021</p>
+	<p style="margin-left: 8px;">Last Updated: October 5, 2021</p>
 </div>
 
 <svelte:head>

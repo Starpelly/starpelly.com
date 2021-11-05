@@ -251,8 +251,8 @@ b {
 }
 
 
-.contenttitle {
-	
+.contenttitle {	
+	border-radius: inherit;
 	height:120px;
 	width:660px;
 	font-family:"Popjoy", Arial, Helvetica, sans-serif;
