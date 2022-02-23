@@ -80,7 +80,7 @@
             </a>
             <a class="menulink" href="https://www.reddit.com/r/unixporn" style="background-image:url('assets/Images/tabs/unixporn.png')">
             </a>
-            <a class="menulink" href="https://myanimelist.net/anime/30721/Hacka_Doll_The_Animation" title='not "amazing" but not bad either ¯\_(ツ)_/¯ ' style="background-image:url('assets/Images/tabs/hackadoll.png')">
+            <a class="menulink" href="https://myanimelist.net/anime/30721/Hacka_Doll_The_Animation" title='not "amazing" but not bad either, also it has a trap in it so who cares. ¯\_(ツ)_/¯ ' style="background-image:url('assets/Images/tabs/hackadoll.png')">
             </a>
             <a class="menulink" style="background-image:url('assets/Images/tabs/killmebaby.png')" href=" ">
             </a>
