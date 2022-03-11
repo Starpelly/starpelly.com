@@ -51,7 +51,6 @@
             </div>
         </div>
     </div>
-	<p style="margin-left: 8px;">Last Updated: October 5, 2021</p>
 </div>
 
 <svelte:head>
