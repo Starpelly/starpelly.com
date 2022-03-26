@@ -80,7 +80,7 @@
             </a>
             <a class="menulink" href="https://www.reddit.com/r/unixporn" style="background-image:url('assets/Images/tabs/unixporn.png')">
             </a>
-            <a class="menulink" href="https://myanimelist.net/anime/30721/Hacka_Doll_The_Animation" title='not "amazing" but not bad either ¯\_(ツ)_/¯ ' style="background-image:url('assets/Images/tabs/hackadoll.png')">
+            <a class="menulink" href="https://myanimelist.net/anime/30721/Hacka_Doll_The_Animation" title='not "amazing" but not bad either, but it has a trap in it so who cares ¯\_(ツ)_/¯ ' style="background-image:url('assets/Images/tabs/hackadoll.png')">
             </a>
             <a class="menulink" style="background-image:url('assets/Images/tabs/killmebaby.png')" href=" ">
             </a>
@@ -91,6 +91,10 @@
             <a class="menulink" style="background-image:url('assets/Images/tabs/rhf.gif')" href=" ">
             </a>
             <a class="menulink" style="background-image:url('assets/Images/tabs/screenrecorder.png')" href="https://awesomescreenrecorder.com">
+            </a>
+            <a class="menulink" href="https://josef.neocities.org"><img src="assets/Images/tabs/josef.png" alt="88x31 button with 'josef' repeating across it">
+            </a>
+            <a class="menulink" style="background-image:url('assets/Images/tabs/windows9.png')">
             </a>
      </div>
     </div>

@@ -50,5 +50,5 @@ import { onMount } from 'svelte';
     </div>
 
 </div>
-<p style="margin-left: 8px;">Last Updated: March 4th, 2022</p>
+<p style="margin-left: 8px;">Last Updated: March 26th, 2022</p>
 </div>
