@@ -24,8 +24,8 @@
                         Work
                     </h1>
                     <p>
-                        I have been creating video games and software since I was about 13 years old. And I haven't really been able to stop since. One of my biggest projects yet is <a href="https://github.com/starpelly/starflow">Starflow</a>,
-                        a video game engine created for a video game company I co-founded called Boxsubmus. We haven't finished a game yet as of 3/4/2022, but we are working hard. As we are still students who have to balance things.
+                        I have been creating video games and software since I was about 13 years old. And I haven't really been able to stop since. One of my biggest projects yet is <a href="https://boxsubmus.com/tech">Trinkit</a>,
+                        a video game engine created for a video game company I co-founded called Boxsubmus. We haven't finished a game yet as of 2/7/2023, but we are working hard. As we are still students who have to balance things.
                     </p>
                     <br>
                     <h1>
