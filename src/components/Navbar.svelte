@@ -22,7 +22,7 @@
 </script>
 
 <div class="navbarwrap">
-    <img src="assets/mayo.gif" style="margin-left: -15px; margin-bottom: -6px;" alt="">
+    <img src="assets/mayo.gif" style="margin-left: 2px; margin-bottom: -2px;" alt="">
     <div id="logocnt">
         <a href="https://www.starpelly.com">
             <img class="bruh" id="myPicture" alt="" src="{pic}" />
@@ -59,7 +59,7 @@
     </div>
 
     <div class="grid_1">
-        <div class="pad2">
+        <div class="pad2">  
             <a class="menulink" href="/" style="background-image:url('../assets/Images/tabs/homepage.png')">
             </a>
             <a class="menulink" href="https://www.newgrounds.com" style="background-image:url('assets/Images/tabs/newgrounds.gif')">
@@ -72,6 +72,12 @@
             </a>
             <a class="menulink" href="otomad" style="background-image:url('assets/Images/tabs/otomad.gif')">
             </a>
+            <a class="menulink" href="https://walfas.org/" style="background-image:url('assets/Images/tabs/walfas.org.png')">
+            </a>
+            <a class="menulink" href="https://www.beeflang.org/" style="background-image:url('assets/Images/tabs/beeflang.png')">
+            </a>
+            <a class="menulink" href="https://rheavenstudio.github.io/" style="background-image:url('assets/Images/tabs/heavenstudio.png')">
+            </a>
             <a class="menulink" href="https://www.youtube.com/watch?v=ddWJatRxfz8" style="background-image:url('assets/Images/tabs/octagon.gif')">
             </a>
             <a class="menulink" href="https://www.youtube.com/watch?v=OYG8Ul276-w" style="background-image:url('assets/Images/tabs/terry.gif')">
@@ -79,6 +85,8 @@
             <a class="menulink" href="https://store.steampowered.com/app/531510/Just_Shapes__Beats/" style="background-image:url('assets/Images/tabs/shapesnbeats.gif')">
             </a>
             <a class="menulink" href="https://www.reddit.com/r/unixporn" style="background-image:url('assets/Images/tabs/unixporn.png')">
+            </a>
+            <a class="menulink" href="https://twitter.com/saraistupid/" style="background-image:url('assets/Images/tabs/saraistupid.png')">
             </a>
             <a class="menulink" href="https://myanimelist.net/anime/30721/Hacka_Doll_The_Animation" title='not "amazing" but not bad either, but it has a trap in it so who cares ¯\_(ツ)_/¯ ' style="background-image:url('assets/Images/tabs/hackadoll.png')">
             </a>

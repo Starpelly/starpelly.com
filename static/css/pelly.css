@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Varta');
+@import url('https://fonts.googleapis.com/css?family=Questrial');
 
 @font-face {
 	font-family: "Popjoy";
@@ -13,16 +13,15 @@ body {
 }
 
 body {
-	font-family:"Varta", Helvetica, sans-serif;
+	font-family:"Questrial", Helvetica, sans-serif;
 	color:rgb(240, 240, 240);
-	text-align:justify;
 	font-size:15px;
 	overflow-y:scroll;
-	background: url("../assets/circle.png");
+	background: url("../assets/mushrooms.png");
 	
 	animation-name: scrollingbg;
 	animation-timing-function: linear;
-	animation-duration: 8s;
+	animation-duration: 1s;
 	animation-iteration-count: infinite;
 
 }
@@ -32,13 +31,13 @@ body {
 		background-position: 0% 0%;
 	}
 	to {
-		background-position: -256px 256px;
+		background-position: -67px 68px;
 	}
 }
 
 .bruh {
   position:relative;
-   margin-left:-7px;
+   margin-left:13px;
    width: 220px;
    height: 228px;
    outline:#ffffff solid 2px;
@@ -122,22 +121,20 @@ b {
 
 .grid_1 {
 	margin-bottom:10px;
-	-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.38); 
-	box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.38);
+	/*-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.38); 
+	box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.38);*/
 }
 
 .grid_3 {
-	border-radius: 10px;
 	outline:#ffffff solid 2px;
-	-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.38); 
-	box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.38);
+	/*-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.38); 
+	box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.38);*/
 }
 
 .header {
-	border-radius: 10px;
 	outline:#ffffff solid 2px;
-	-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.38); 
-	box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.38);
+	/*-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.38); 
+	box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.38);*/
 }
 
 /* Padding divs so content fits */
@@ -187,6 +184,19 @@ b {
 	border-style:hidden;
 }
 
+.menulink-geocity {
+	display:block;
+	position:relative;
+	height:31px;
+	width:88px;
+	margin-bottom:10px;
+	outline:0;
+	text-decoration:none;
+	color:#FFF;
+	border-width:0;
+	border-style:hidden;
+}
+
 .menulink:hover {
 	text-decoration:none;
 
@@ -197,7 +207,7 @@ b {
 	text-decoration:none;
 }
 
-.menulink .textcnt {
+.menulink .menulink-geocity .textcnt {
 	display:block;
 	position:absolute;
 	top:0;

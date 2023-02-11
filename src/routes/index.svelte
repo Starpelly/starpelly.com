@@ -35,20 +35,8 @@ import { onMount } from 'svelte';
                 </div>
             </div>
             {/each}
-            
-        <div id="disqus_thread"></div>
-        <script>
-            (function() { // DON'T EDIT BELOW THIS LINE
-            var d = document, s = d.createElement('script');
-            s.src = 'https://starpelly.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
+            <p style="visibility: hidden;">a</p>
     </div>
-
 </div>
-<p style="margin-left: 8px;">Last Updated: March 26th, 2022</p>
+<p style="margin-left: 247px;">Last Updated: February 11th, 2023</p>
 </div>
