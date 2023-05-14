@@ -86,7 +86,7 @@
             </a>
             <a class="menulink" href="https://www.reddit.com/r/unixporn" style="background-image:url('assets/Images/tabs/unixporn.png')">
             </a>
-            <a class="menulink" href="https://twitter.com/saraistupid/" style="background-image:url('assets/Images/tabs/saraistupid.png')">
+            <a class="menulink" href="https://saraistupid.github.io/" style="background-image:url('assets/Images/tabs/saraistupid.png')">
             </a>
             <a class="menulink" href="https://myanimelist.net/anime/30721/Hacka_Doll_The_Animation" title='not "amazing" but not bad either, but it has a trap in it so who cares ¯\_(ツ)_/¯ ' style="background-image:url('assets/Images/tabs/hackadoll.png')">
             </a>
