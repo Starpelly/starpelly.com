@@ -22,6 +22,7 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
         ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BASE_BRANCH: main
         BRANCH: gh-pages
         FOLDER: __sapper__/export/
 
