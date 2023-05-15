@@ -25,4 +25,3 @@ jobs:
         BASE_BRANCH: main
         BRANCH: gh-pages
         FOLDER: __sapper__/export/
-
