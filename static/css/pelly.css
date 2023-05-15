@@ -14,6 +14,7 @@ body {
 
 body {
 	font-family:"Questrial", Helvetica, sans-serif;
+	font-weight: normal;
 	color:rgb(240, 240, 240);
 	font-size:15px;
 	overflow-y:scroll;
@@ -40,7 +41,7 @@ body {
    margin-left:13px;
    width: 220px;
    height: 228px;
-   outline:#ffffff solid 2px;
+   outline:#adadad solid 2px;
 }
 
 .image-container img
@@ -115,7 +116,7 @@ b {
 .grid_2,
 .grid_4 {
 	background-color:#333;
-	outline:#ffffff solid 2px;
+	outline:#adadad solid 2px;
 	
 }
 
@@ -126,13 +127,17 @@ b {
 }
 
 .grid_3 {
-	outline:#ffffff solid 2px;
 	/*-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.38); 
 	box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.38);*/
 }
 
+.contentholder {
+	outline:#adadad solid 2px;
+	border-radius: 4px;
+}
+
 .header {
-	outline:#ffffff solid 2px;
+	outline:#adadad solid 2px;
 	/*-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.38); 
 	box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.38);*/
 }
@@ -221,6 +226,7 @@ b {
 	border-bottom-right-radius:5px;
     border-style:inherit;
     font-family: "Varta";
+	font-weight: normal;
 	
 	color:inherit;
 	font-weight:bold;
@@ -272,6 +278,7 @@ b {
 	padding-right:20px;
 	display:block;
 	position:relative;
+	font-weight: normal;
 }
 
 .dame {
@@ -298,6 +305,8 @@ b {
 	z-index:10;
 	cursor:default;
 	text-shadow: -1px 0px 5px rgb(0, 0, 0);
+	font-weight: normal;
+    font-style: normal;
 }
 
 .contenttitle p {
@@ -341,6 +350,10 @@ b {
 
 	border-top-left-radius:2px;
 	border-top-right-radius:2px;
+}
+
+.anon a:visited {
+	text-decoration: none;
 }
 
 .tabbar a:hover {
@@ -460,6 +473,7 @@ b {
 	font-size:20px;
     font-weight:bold;
 	font-family: "Popjoy";
+	font-weight: normal;
 }
 
 .articletitle{
@@ -532,6 +546,7 @@ code {
     white-space: pre-wrap;
     margin: auto;
     font-family: "Consolas", monospace;
+	font-weight: normal;
     page-break-inside: avoid;
     font-size: 12px;
     max-width: 90%;

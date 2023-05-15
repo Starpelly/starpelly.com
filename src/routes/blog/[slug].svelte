@@ -15,6 +15,7 @@
 
 <script>
 	import Navbar from '../../components/Navbar.svelte'
+	import ContentPad from '../../components/ContentPad.svelte';
 	export let post;
 </script>
 
@@ -22,22 +23,19 @@
     <Navbar></Navbar>
 
     <div class="grid_3">
-        <div class="contenttitle" style="background-image:url('assets/bannerHome.png')">
-            <h1>Starpelly</h1>
-        </div>
-        <div class="contentpad">
-            <div class="article">
+        <ContentPad>
+			<div class="article">
 				<div class="articledate">
-                    <div class="articleday">{post.date}</div>
-                </div>
-                <div class="articletitle">
-                    <a href=" ">
-                        {post.title}</a>
-                </div>
-                <div class="articlebody">
-                    {@html post.html}
-                </div>
-
+					<div class="articleday">{post.date}</div>
+				</div>
+				<div class="articletitle">
+					<a href=" ">
+						{post.title}</a>
+				</div>
+				<div class="articlebody">
+					{@html post.html}
+				</div>
+	
 				<div id="disqus_thread"></div>
 				<script>
 					(function() { // DON'T EDIT BELOW THIS LINE
@@ -48,9 +46,9 @@
 					})();
 				</script>
 				<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-            </div>
-        </div>
-    </div>
+			</div>
+		</ContentPad>
+	</div>
 </div>
 
 <svelte:head>

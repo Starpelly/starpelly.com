@@ -159,3 +159,20 @@ body {
   .clearfix {
 	zoom: 1;
   }
+
+  .lowcp {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-top: 15px;
+    background-color: #333;
+  }
+
+  .lowcp a {
+    text-decoration: underline;
+    color: white;
+  }
+
+  .lowcp a:visited {
+    color: white;
+  }

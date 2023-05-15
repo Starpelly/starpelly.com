@@ -4,6 +4,7 @@
 
 	const dev = process.env.NODE_ENV === 'development';
 
+    import ContentPad from '../components/ContentPad.svelte';
     import Navbar from '../components/Navbar.svelte'
 </script>
 
@@ -11,22 +12,21 @@
     <Navbar></Navbar>
 
     <div class="grid_3">
-        <div class="contenttitle" style="background-image:url('https://www.apimages.com/Images/Ap_Creative_Stock_Header.jpg')">
-            <h1>{status}</h1>
-        </div>
-        <div class="contentpad">
+        <ContentPad title="{status}">
             <div class="article">
-                <div class="articlebody">
-					{#if status == 404}
-					<p>I have no idea what you were looking for but if there is meant to be something here please message me.</p>
-					{:else}
-						<p>this is probably a bad thing you should message me about this.</p>
-                    	{error.message}
-					{/if}
+				{#if status == 404}
+				    <p>I have no idea what you were looking for but if there is meant to be something here please message me.</p>
+				{:else}
+					<p>This is probably a bad thing and you should message me about this.</p>
+                	<p>Error: </p>{error.message}
+				{/if}
 
-					<h1>Starpelly#0255</h1>
-                </div>
+                <br>
+                <br>
+
+
+				<h1>Starpelly#0255</h1>
             </div>
-        </div>
+        </ContentPad>
     </div>
 </div>

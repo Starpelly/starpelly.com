@@ -13,7 +13,7 @@
     ,"https://preview.redd.it/9hlskc5c6nc41.gif?width=640&crop=smart&s=8211a5a62294612779e8b7fef222fb22b3e69dc1","https://media.tenor.com/images/7219604c50d8c562f2848bf0ffc626f6/tenor.gif","https://i.ytimg.com/vi/i6wUBD5vBeo/hqdefault.jpg"
     ,"https://media.suthlbr.com/products/images/30001/2967891_ep_1514387985_2.jpg","https://i.ytimg.com/vi/qbcnIenjKWg/hqdefault.jpg","https://static0.thegamerimages.com/wordpress/wp-content/uploads/2020/05/Xbox-Series-X-Fridge-Meme.jpg?q=50&fit=crop&w=740&h=389"
     ,"https://f4.bcbits.com/img/a1033099733_10.jpg", "https://f4.bcbits.com/img/a2358396975_10.jpg", "https://i.ytimg.com/vi/2zkQ3iV6H-8/maxresdefault.jpg", "https://www.speedrun.com/gameasset/w6jwv41j/cover?v=a8632b1", "http://2.bp.blogspot.com/-rF3T2nSWMz8/TzfEYgIzamI/AAAAAAAACIs/1FT3Ypjai0c/s1600/Mari0+Linux+Game.jpg"
-    ,"https://media.makeameme.org/created/nigga-your-gay-fb97e89def.jpg"); /* i'll add more eventually  */
+    ,"https://media.makeameme.org/created/nigga-your-gay-fb97e89def.jpg", "assets/randomimages/0.jpg"); /* i'll add more eventually  */
 
     function choosePic() {
         let randomNum = Math.floor((Math.random() * myPix.length));
@@ -28,7 +28,7 @@
             <img class="bruh" id="myPicture" alt="" src="{pic}" />
         </a>
     </div>
-    <div class="grid_1">
+    <div class="grid_1" style="border-bottom-left-radius: 4px; border-bottom-right-radius: 4px;">
         <div class="pad2">
             <div>
                 <a class="sociallink" style="background-image:url('assets/Images/social/youtube32.png');" title="YouTube" target="_blank" href="https://youtube.com/Starpelly" alt=""> </a>
@@ -38,7 +38,7 @@
         </div>
     </div>
 
-    <div class="grid_1">
+    <div class="grid_1 contentholder">
         <div class="pad2">
             <a class="links" href="about" style="color: white">About Me</a>
             <br>
@@ -47,7 +47,7 @@
         </div>
     </div>
 
-    <div class="grid_1">
+    <div class="grid_1 contentholder">
         <div class="pad2">
             <a class="links" href="videos" style="color: white">Videos</a>
             <br>
@@ -58,9 +58,11 @@
      </div>
     </div>
 
-    <div class="grid_1">
+    <div class="grid_1 contentholder">
         <div class="pad2">  
             <a class="menulink" href="/" style="background-image:url('../assets/Images/tabs/homepage.png')">
+            </a>
+            <a class="menulink" href="https://motionmelody.com" style="background-image:url('assets/Images/tabs/motionmelody.png')">
             </a>
             <a class="menulink" href="https://www.newgrounds.com" style="background-image:url('assets/Images/tabs/newgrounds.gif')">
             </a>
@@ -86,7 +88,7 @@
             </a>
             <a class="menulink" href="https://www.reddit.com/r/unixporn" style="background-image:url('assets/Images/tabs/unixporn.png')">
             </a>
-            <a class="menulink" href="https://saraistupid.github.io/" style="background-image:url('assets/Images/tabs/saraistupid.png')">
+            <a class="menulink" href="https://saraistupid.github.io/" style="background-image:url('assets/Images/tabs/saraistupid.gif')">
             </a>
             <a class="menulink" href="https://myanimelist.net/anime/30721/Hacka_Doll_The_Animation" title='not "amazing" but not bad either, but it has a trap in it so who cares ¯\_(ツ)_/¯ ' style="background-image:url('assets/Images/tabs/hackadoll.png')">
             </a>

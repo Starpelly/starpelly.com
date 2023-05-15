@@ -7,36 +7,44 @@
 </script>
 
 <script>
-import { onMount } from 'svelte';
+    import { onMount } from 'svelte';
 
     import Navbar from '../components/Navbar.svelte'
+    import ContentPad from '../components/ContentPad.svelte';
     export let posts;
+    export let postCount = posts.length;
+
+    if (postCount > 4)
+        postCount = 4;
 </script>
 
 <div class="container container_4">
     <Navbar></Navbar>
 
     <div class="grid_3">
-        <div class="contenttitle" style="background-image:url('assets/bannerHome.png')">
-            <h1>Starpelly</h1>
-        </div>
-        <div class="contentpad">
-
-            {#each posts as post}
+        <ContentPad>
+            {#each {length: postCount} as _, i}
             <div class="article">
                 <div class="articledate">
-                    <div class="articleday">{post.date}</div>
+                    <div class="articleday">{posts[i].date}</div>
                 </div>
                 <div class="articletitle">
-                    <a rel="prefetch" href="blog/{post.slug}">{post.title}</a>
+                    <a rel="prefetch" href="blog/{posts[i].slug}">{posts[i].title}</a>
                 </div>
                 <div class="articlebody">
-                    {@html post.html}
+                    {@html posts[i].html}
                 </div>
             </div>
             {/each}
-            <p style="visibility: hidden;">a</p>
+        </ContentPad>
+
+        {#if postCount < posts.length}
+        <div class="lowcp contentholder">
+            <a href="page/2" style="text-decoration:none">← Wander back</a>
+            <span id="pages">Page 1 of {Math.ceil(posts.length / 4)}</span>
+        </div>
+        {/if}
     </div>
-</div>
-<p style="margin-left: 247px;">Last Updated: February 11th, 2023</p>
+
+<p style="margin-left: 247px;">Last Updated: May 15th, 2023</p>
 </div>
