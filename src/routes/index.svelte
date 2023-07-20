@@ -24,6 +24,7 @@
     <div class="grid_3">
         <ContentPad>
             {#each {length: postCount} as _, i}
+            <!--<a href="blog/{posts[i].slug}#disqus_thread"></a>-->
             <div class="article">
                 <div class="articledate">
                     <div class="articleday">{posts[i].date}</div>

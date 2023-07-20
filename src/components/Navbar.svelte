@@ -106,6 +106,31 @@
             </a>
             <a class="menulink" style="background-image:url('assets/Images/tabs/windows9.png')">
             </a>
+            <hr>
+            <center>                
+                <a href="/"><img src="assets/Images/tabs_classic/adobe.gif"></a>
+                <a href="https://www.smbxgame.com/"><img src="assets/Images/tabs_classic/smbx.gif"></a>
+                <a href="https://www.youtube.com/watch?v=ddWJatRxfz8"><img src="assets/Images/tabs_classic/octagon.gif"></a>
+                <a href="https://www.youtube.com/watch?v=OYG8Ul276-w"><img src="assets/Images/tabs_classic/terry.gif"></a>
+                <a href="/"><img src="assets/Images/tabs_classic/coco_cade.gif"></a>
+                <a href="https://code.visualstudio.com/"><img src="assets/Images/tabs_classic/vscbutton.gif"></a>
+                <a href="https://dopi.sexy/"><img src="assets/Images/tabs_classic/dopi.gif"></a>
+                <a href="https://www.oneshot-game.com/"><img src="assets/Images/tabs_classic/theworldmachine.gif"></a>
+                <a href="/"><img src="assets/Images/tabs_classic/discord-no-way.gif"></a>
+                <a href="/"><img src="assets/Images/tabs_classic/wii.gif"></a>
+                <a href="https://stabyourself.net/"><img src="assets/Images/tabs_classic/stys.png"></a>
+                <a href="/"><img src="assets/Images/tabs_classic/ss.png"></a>
+                <a href="/"><img src="assets/Images/tabs_classic/godblessbutton1.gif"></a>
+                <a href="https://talkhaus.raocow.com/"><img src="assets/Images/tabs_classic/talkhaus.gif"></a>
+                <a href="https://josef.neocities.org/"><img src="assets/Images/tabs_classic/alulabutton.gif"></a>
+                <a href="/"><img src="assets/Images/tabs_classic/gaywomen.gif"></a>
+                <a href="/"><img src="assets/Images/tabs_classic/piss.gif"></a>
+                <a href="/"><img src="assets/Images/tabs_classic/lol.gif"></a>
+            </center>
+            <hr>
+            <center>
+                <a href="https://xkcd.com/285/"><img src="assets/Images/tabs_classic/citationneededstamp.png"></a>
+            </center>
      </div>
     </div>
 </div>
