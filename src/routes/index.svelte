@@ -47,5 +47,5 @@
         {/if}
     </div>
 
-<p style="margin-left: 247px;">Last Updated: May 15th, 2023</p>
+<p style="margin-left: 247px;">Last Updated: July 20th, 2023</p>
 </div>
