@@ -118,7 +118,7 @@
                 <a href="https://www.oneshot-game.com/"><img src="assets/Images/tabs_classic/theworldmachine.gif"></a>
                 <a href="/"><img src="assets/Images/tabs_classic/discord-no-way.gif"></a>
                 <a href="/"><img src="assets/Images/tabs_classic/wii.gif"></a>
-                <a href="/"><img src="assets/Images/tabs_classic/mmaker.gif"></a>
+                <a href="https://mmaker.moe/"><img src="assets/Images/tabs_classic/mmaker.gif"></a>
                 <a href="https://stabyourself.net/"><img src="assets/Images/tabs_classic/stys.png"></a>
                 <a href="/"><img src="assets/Images/tabs_classic/ss.png"></a>
                 <a href="/"><img src="assets/Images/tabs_classic/godblessbutton1.gif"></a>
