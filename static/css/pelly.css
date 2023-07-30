@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Questrial');
+@import url('https://fonts.googleapis.com/css?family=JetBrains+Mono');
 
 @font-face {
 	font-family: "Popjoy";
@@ -545,12 +546,16 @@ code {
     display: block;
     white-space: pre-wrap;
     margin: auto;
-    font-family: "Consolas", monospace;
+    font-family: "JetBrains Mono", "Consolas", monospace;
 	font-weight: normal;
     page-break-inside: avoid;
     font-size: 12px;
-    max-width: 90%;
+    /*max-width: 90%;*/
     overflow: auto;
     display: block;
     word-wrap: break-word;
+	background-color: #0000005e;
+	border-radius: 6px;
+	padding: 8px;
+	outline: #adadad solid 1px;
 }
