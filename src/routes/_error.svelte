@@ -25,7 +25,7 @@
                 <br>
 
 
-				<h1>Starpelly#0255</h1>
+				<h1>Starpelly @ GitHub</h1>
             </div>
         </ContentPad>
     </div>
