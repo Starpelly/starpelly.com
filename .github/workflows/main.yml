@@ -24,3 +24,5 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.secretfuckingtoken }}
         BRANCH: gh-pages
         FOLDER: __sapper__/export/
+    permissions:
+      contents: write
