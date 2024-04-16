@@ -86,6 +86,8 @@
             </a>
             <a class="menulink" href="https://store.steampowered.com/app/531510/Just_Shapes__Beats/" style="background-image:url('assets/Images/tabs/shapesnbeats.gif')">
             </a>
+            <a class="menulink" href="https://smlwiki.com/" style="background-image:url('assets/Images/tabs/smlwiki.png')">
+            </a>
             <a class="menulink" href="https://www.reddit.com/r/unixporn" style="background-image:url('assets/Images/tabs/unixporn.png')">
             </a>
             <a class="menulink" href="https://saraistupid.github.io/" style="background-image:url('assets/Images/tabs/saraistupid.gif')">
@@ -101,8 +103,6 @@
             <a class="menulink" style="background-image:url('assets/Images/tabs/rhf.gif')" href=" ">
             </a>
             <a class="menulink" style="background-image:url('assets/Images/tabs/screenrecorder.png')" href="https://awesomescreenrecorder.com">
-            </a>
-            <a class="menulink" href="https://josef.neocities.org"><img src="assets/Images/tabs/josef.png" alt="88x31 button with 'josef' repeating across it">
             </a>
             <a class="menulink" style="background-image:url('assets/Images/tabs/windows9.png')">
             </a>
@@ -127,6 +127,9 @@
                 <a href="/"><img src="assets/Images/tabs_classic/gaywomen.gif"></a>
                 <a href="/"><img src="assets/Images/tabs_classic/piss.gif"></a>
                 <a href="/"><img src="assets/Images/tabs_classic/lol.gif"></a>
+                <a href="/"><img src="assets/Images/tabs_classic/hikikomorigrave.gif"></a>
+                <a href="https://github.com/Starpelly"><img src="assets/Images/tabs_classic/github-check.gif"></a>
+                <a href="/"><img src="assets/Images/tabs_classic/minecraft.gif"></a>
             </center>
             <hr>
             <center>
