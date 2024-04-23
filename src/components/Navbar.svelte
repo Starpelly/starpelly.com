@@ -78,8 +78,6 @@
             </a>
             <a class="menulink" href="https://www.beeflang.org/" style="background-image:url('assets/Images/tabs/beeflang.png')">
             </a>
-            <a class="menulink" href="https://rheavenstudio.github.io/" style="background-image:url('assets/Images/tabs/heavenstudio.png')">
-            </a>
             <a class="menulink" href="https://www.youtube.com/watch?v=ddWJatRxfz8" style="background-image:url('assets/Images/tabs/octagon.gif')">
             </a>
             <a class="menulink" href="https://www.youtube.com/watch?v=OYG8Ul276-w" style="background-image:url('assets/Images/tabs/terry.gif')">

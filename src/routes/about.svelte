@@ -18,7 +18,7 @@
                         I'm a visual effects artist and computer programmer. I'm an American interested in making and sharing open source software and video games.
                         <br>
                         <br>
-                        I'm also a devout Christian and might make a few posts on theology.
+                        I'm also a devout Christian and I might make a few posts about theology.
                     </p>
                     <br>
                     <h1>
@@ -26,6 +26,10 @@
                     </h1>
                     <p>
                         I have been creating video games and software since I was about 13 years old. And I haven't really been able to stop since.
+                        <br>
+                        <br>
+                        My most notable work is Heaven Studio, a free and open-source level editor based on the Rhythm Heaven franchise. I started the project
+                        in my mom's basement using nothing but Unity and my hopes and dreams. And I face the consequences of that decision every day.
                     </p>
                     <br>
                     <h1>
@@ -45,17 +49,6 @@
                     </p>
                 </div>
             </div>
-
-            <div id="disqus_thread"></div>
-            <script>
-                (function() { // DON'T EDIT BELOW THIS LINE
-                var d = document, s = d.createElement('script');
-                s.src = 'https://starpelly.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-                })();
-            </script>
-            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
         </ContentPad>
     </div>
 </div>

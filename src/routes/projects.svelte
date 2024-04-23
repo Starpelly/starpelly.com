@@ -19,7 +19,8 @@ import Navbar from '../components/Navbar.svelte'
                     </h1>
                     <a href="https://motionmelody.com/">Motionmelody</a> - An experimental bullet-hell where the music tries to kill you.
                     <br>
-                    <a href="https://github.com/megaminerjenny/heavenstudio">Heaven Studio</a> - An open-source community based level editor based on the Rhythm Heaven franchise!
+                    <a href="https://github.com/rheavenstudio/heavenstudio">Heaven Studio</a> - 
+                    I started Heaven Studio in my mom's basement, and then a bunch of transsexuals took it over for me. Heaven Studio is an open-source community based level editor based on the Rhythm Heaven franchise!
                     <br>
                     <a href="https://github.com/Starpelly/CoinToss">Coin Toss</a> - A mobile open-source recreation of "Coin Toss" from Rhythm Heaven DS.
                     <br>
@@ -33,13 +34,7 @@ import Navbar from '../components/Navbar.svelte'
                     <h1>
                         Tools
                     </h1>
-                    <a href="https://github.com/Starpelly/Boxcanvas">Boxcanvas</a> - A graphical user interface for Unity with minimal dependencies.
-                    <br>
-                    <a href="https://github.com/Boxsubmus/Boxrhythm">Boxrhythm</a> - Tools for Unity rhythm games.
-                    <br>
                     <a href="https://github.com/Starpelly/Starpelly">Starpelly</a> - General helper tools for Unity.
-                    <br>
-                    <a href="https://github.com/Starpelly/TickflowSquared">Tickflow²</a> - A scripting language for rhythm-heaven style rhythm games using C#.
                     <br>
                     <br>
                     <h1>
@@ -47,7 +42,7 @@ import Navbar from '../components/Navbar.svelte'
                     </h1>
                     <a href="walroose">Walroose Generator</a> - Generates a walroose card thing.
                     <br>
-                    <a href="isicdxaninsanedemon">Is Ice Carbon Diablo X an Extreme Demon?</a> - Find out today!
+                    <a href="isicdxaninsanedemon">Is Ice Carbon Diablo X an Insane Demon?</a> - Find out today!
                 </div>
             </div>
         </ContentPad>
