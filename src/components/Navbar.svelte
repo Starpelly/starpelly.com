@@ -133,6 +133,12 @@
             <center>
                 <a href="https://xkcd.com/285/"><img src="assets/Images/tabs_classic/citationneededstamp.png"></a>
             </center>
+            <hr>
+            <center>
+            <!-- FC2 Counter  Starts here -->
+            <script language="javascript" type="text/javascript" src="//counter1.fc2.com/counter.php?id=39633438&main=1"></script><noscript><img src="//counter1.fc2.com/counter_img.php?id=39633438&main=1" /></noscript>
+            <!-- FC2 Counter  Ends here -->
+            </center>
      </div>
     </div>
 </div>

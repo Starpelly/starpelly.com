@@ -14,7 +14,7 @@ body {
 }
 
 body {
-	font-family:"Questrial", Helvetica, sans-serif;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	font-weight: normal;
 	color:rgb(240, 240, 240);
 	font-size:15px;
@@ -484,7 +484,7 @@ b {
 	left:20px;
 	height:32px;
 	width:590px;
-	font-size:22px;
+	font-size:21px;
 	font-weight:bold;
 	padding-right:20px;
 	
@@ -500,7 +500,13 @@ b {
 }
 
 .articlebody img {
-   margin-bottom: 15px;
+   padding: 6px;
+   display: block;
+   margin: auto;
+   max-width: 90%;
+   background-color: #0000005e;
+   border: 1px solid #adadad;
+   border-radius: 4px;
 }
 
 .articlebody li {
