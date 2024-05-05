@@ -1,0 +1,32 @@
+baseURL = 'https://starpelly.com'
+languageCode = 'en-us'
+title = 'Starpelly'
+theme = 'pelly'
+
+[markup.goldmark.renderer]
+unsafe = true # Allow HTML in md files
+
+[[menus.main]]
+name = 'About Me'
+pageRef = '/about'
+weight = 10
+
+[[menus.main]]
+name = 'Projects'
+pageRef = '/projects'
+weight = 20
+
+[[menus.pages]]
+name = 'Videos'
+pageRef = '/videos'
+weight = 10
+
+[[menus.pages]]
+name = 'Project Files'
+url = '/files'
+weight = 20
+
+[[menus.pages]]
+name = 'About After Effects'
+pageRef = '/about-after-effects'
+weight = 30

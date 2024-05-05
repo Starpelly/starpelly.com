@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+
+  {{ .Content }}
+
+  {{ range .Pages }}
+  <div class="article">
+    <div class="articledate">
+      <div class="articleday">
+        {{ .Date.Format "01/02/2006" }}
+      </div>
+    </div>
+    <div class="articletitle">
+      <a rel="prefetch" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    </div>
+    <div class="articlebody">
+      {{ .Summary }}
+    </div>
+  </div>
+  {{ end }}
+{{ end }}

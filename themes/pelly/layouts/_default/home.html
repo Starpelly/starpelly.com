@@ -1,0 +1,22 @@
+{{ define "main" }}
+  {{ .Content }}
+  {{ range where site.RegularPages "Section" "==" "blog" }}
+
+
+  <div class="article">
+    {{ if .Date }}
+    <div class="articledate">
+      <div class="articleday">
+        {{ .Date.Format "01/02/2006" }}
+      </div>
+    </div>
+    {{ end }}
+    <div class="articletitle">
+      <a rel="prefetch" href="{{ .RelPermalink }}#disqus_thread">{{ .LinkTitle }}</a>
+    </div>
+    <div class="articlebody">
+      {{ .Content }}
+    </div>
+  </div>
+  {{ end }}
+{{ end }}
