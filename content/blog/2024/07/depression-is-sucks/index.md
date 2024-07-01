@@ -15,12 +15,12 @@ In my efforts to distract myself from the dishonorable state of my mind, I've de
 
 ## Mini-Praise of Animal Well
 
-![image](images/animalwellsteam.png)
+![image](/images/animalwellsteam.png)
 
 Animal Well might be one of the greatest games of all time. Period. It's no Pizza Tower but it's definitely up there. The art, sound design, music, level design, it's just a **mastapeece**. It goes to show that there are still people willing to make good and high quality stuff out there. Excellent.
 
 My only problem with the game is the save system, it pretty much only exists to facilitate nostalgia and nothing else. It's more of a checkpoint than an actual save. The game would've been better without it.
 
-![image](images/20240701142403_1.jpg)
+![image](/images/20240701142403_1.jpg)
 
 Hats off to Billy Basso.
