@@ -1,7 +1,6 @@
 +++
 title = 'Depression Is Sucks'
 date = 2024-07-01T14:04:14-04:00
-draft = true
 +++
 
 Happy anti-gay month.
