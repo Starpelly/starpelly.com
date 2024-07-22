@@ -126,9 +126,7 @@ b {
 }
 
 .pad2 {
-	padding-left:10px;
-	padding-right:10px;
-	padding-top:10px;
+	padding: 10px;
 	background-color: #333;
 }
 
@@ -150,6 +148,11 @@ b {
    overflow:hidden;
 }
 
+.menulinks {
+	display: grid;
+	grid-auto-flow: row;
+	grid-row-gap: 10px;
+}
 
 .menulink {
 	display:block;
@@ -163,6 +166,21 @@ b {
 	border-width:0;
 	border-style:hidden;
 	border-radius: 4px;
+}
+
+.links {
+	color: inherit;
+	text-decoration:underline;
+}
+
+.links:visited {
+	color:#ffca5f;
+	text-decoration:underline;
+}
+
+.links a:hover {
+	color:#ffca5f;
+	text-decoration:underline;
 }
 
 .menulink-geocity {
@@ -210,17 +228,15 @@ b {
 
 .links {
     width:200px;
-	margin-bottom:10px;
 	display:inline-block;
 	background-position:0px 0px;
 }
 
-
-.sociallink{
+.sociallink {
 	position:relative;
 	display:inline-block;
-	width: 32px;
-	height: 32px;
+	width: 33.5px;
+	height: 33.5px;
 	background-position:0px 0px;
 	outline:0;
 	margin:0;
@@ -240,6 +256,12 @@ b {
 	transform: scale(1.0);
     transition-duration: 0.5s;
 	transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.sociallink img {
+	width: 34px;
+	object-fit: scale-down;
+	border-radius: 8px;
 }
 
 .socialspacer {
@@ -369,7 +391,7 @@ b {
 	text-decoration:underline;
 }
 .contentpad a:visited {
-	color:inherit;
+	color:#ffca5f;
 	text-decoration:underline;
 }
 .contentpad a:hover {

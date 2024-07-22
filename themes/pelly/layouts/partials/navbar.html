@@ -9,25 +9,40 @@
 
         <div class="grid_1 contentholder">
             <div class="pad2">
-                <div style="text-align: center;">
-                    <a class="sociallink" style="background-image:url(/assets/Images/social/youtube32.png)" title="YouTube" target="_blank" href="https://youtube.com/Starpelly" alt=""> </a>
-                    <a class="sociallink" style="background-image:url(/assets/Images/social/instagram32.png)" title="Instagram" target="_blank" href="https://instagram.com/Starpelly_" alt=""> </a>
-                    <a class="sociallink" style="background-image:url(/assets/Images/social/github32.png)" title="Github" target="_blank" href="https://github.com/starpelly"> </a>
-                    <a class="sociallink" style="background-image:url(/assets/Images/social/rss32.png)" title="RSS Feed" target="_blank" href="/index.xml"> </a>
+                <div style="display: flex; flex-wrap: nowrap; text-align: center; max-height: 34px;">
+                    <a class="sociallink" title="YouTube" target="_blank" href="https://youtube.com/Starpelly" alt="">
+                        <img src="/assets/Images/social/youtube.svg">
+                    </a>
+                    <a class="sociallink" style="border-radius: 10px; background-color: white;" title="Instagram" target="_blank" href="https://instagram.com/Starpelly_" alt="">
+                        <img src="/assets/Images/social/instagram.svg">
+                    </a>
+                    <a class="sociallink" style="border-radius: 10px; background-color: white;" title="Github" target="_blank" href="https://github.com/starpelly">
+                        <img src="/assets/Images/social/github.svg">
+                    </a>
+                    <a class="sociallink" title="Steam" target="_blank" href="https://steamcommunity.com/id/starpelly/">
+                        <img src="/assets/Images/social/steam.svg">
+                    </a>
+                    <a class="sociallink" title="RSS Feed" target="_blank" href="/index.xml">
+                        <img src="/assets/Images/social/rss.svg">
+                    </a>
                 </div>
             </div>
         </div>
 
         <div class="grid_1 contentholder">
             <div class="pad2">
-                {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+                <div class="menulinks">
+                    {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+                </div>
             </div>   
         </div>
 
         <div class="grid_1 contentholder">
             <div class="pad2">
-                {{ partial "menu.html" (dict "menuID" "pages" "page" .) }}
-        </div>
+                <div class="menulinks">
+                    {{ partial "menu.html" (dict "menuID" "pages" "page" .) }}
+                </div>
+            </div>
         </div>
 
         <div class="grid_1 contentholder">
