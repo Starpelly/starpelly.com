@@ -1,115 +1,117 @@
 <div class="navbarwrap">
-    <script src="/js/randomimage.js"></script>
-    <img src="/assets/mayo.gif" style="margin-left: -14px; margin-bottom: 0px;" alt="">
-    <div id="logocnt">
-        <a href="/">
+    <div class="navbarcontent">
+        <script src="/js/randomimage.js"></script>
+        <div class="grid_1 contentholder">
+            <!--<img src="/assets/mayo.gif" style="margin-left: -5px; margin-bottom: 0px;" alt="">-->
             <img class="bruh" id="myPicture" alt="" src="{pic}" />
-        </a>
-    </div>
-    <div class="grid_1" style="border-bottom-left-radius: 4px; border-bottom-right-radius: 4px;">
-        <div class="pad2">
-            <div style="text-align: center;">
-                <a class="sociallink" style="background-image:url(/assets/Images/social/youtube32.png)" title="YouTube" target="_blank" href="https://youtube.com/Starpelly" alt=""> </a>
-                <a class="sociallink" style="background-image:url(/assets/Images/social/instagram32.png)" title="Instagram" target="_blank" href="https://instagram.com/Starpelly_" alt=""> </a>
-                <a class="sociallink" style="background-image:url(/assets/Images/social/github32.png)" title="Github" target="_blank" href="https://github.com/starpelly"> </a>
-                <a class="sociallink" style="background-image:url(/assets/Images/social/rss32.png)" title="RSS Feed" target="_blank" href="/index.xml"> </a>
+
+        </div>
+
+        <div class="grid_1 contentholder">
+            <div class="pad2">
+                <div style="text-align: center;">
+                    <a class="sociallink" style="background-image:url(/assets/Images/social/youtube32.png)" title="YouTube" target="_blank" href="https://youtube.com/Starpelly" alt=""> </a>
+                    <a class="sociallink" style="background-image:url(/assets/Images/social/instagram32.png)" title="Instagram" target="_blank" href="https://instagram.com/Starpelly_" alt=""> </a>
+                    <a class="sociallink" style="background-image:url(/assets/Images/social/github32.png)" title="Github" target="_blank" href="https://github.com/starpelly"> </a>
+                    <a class="sociallink" style="background-image:url(/assets/Images/social/rss32.png)" title="RSS Feed" target="_blank" href="/index.xml"> </a>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="grid_1 contentholder">
-        <div class="pad2">
-            {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
-        </div>   
-    </div>
+        <div class="grid_1 contentholder">
+            <div class="pad2">
+                {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+            </div>   
+        </div>
 
-    <div class="grid_1 contentholder">
-        <div class="pad2">
-            {{ partial "menu.html" (dict "menuID" "pages" "page" .) }}
-     </div>
-    </div>
+        <div class="grid_1 contentholder">
+            <div class="pad2">
+                {{ partial "menu.html" (dict "menuID" "pages" "page" .) }}
+        </div>
+        </div>
 
-    <div class="grid_1 contentholder">
-        <div class="pad2">  
-            <a class="menulink" href="/" style="background-image:url('/assets/Images/tabs/homepage.png')">
-            </a>
-            <a class="menulink" href="https://motionmelody.com" style="background-image:url('/assets/Images/tabs/motionmelody.png')">
-            </a>
-            <a class="menulink" href="https://www.newgrounds.com" style="background-image:url('/assets/Images/tabs/newgrounds.gif')">
-            </a>
-            <a class="menulink" href="https://store.steampowered.com/app/322170/Geometry_Dash/" style="background-image:url('/assets/Images/tabs/gd.gif')">
-            </a>
-            <a class="menulink" href="https://www.nicovideo.jp/" style="background-image:url('/assets/Images/tabs/niconico.gif')">
-            </a>
-            <a class="menulink" href="https://www.smwcentral.net/" style="background-image:url('/assets/Images/tabs/smw.gif')">
-            </a>
-            <a class="menulink" href="/otomad" style="background-image:url('/assets/Images/tabs/otomad.gif')">
-            </a>
-            <a class="menulink" href="https://walfas.org/" style="background-image:url('/assets/Images/tabs/walfas.org.png')">
-            </a>
-            <a class="menulink" href="https://www.beeflang.org/" style="background-image:url('/assets/Images/tabs/beeflang.png')">
-            </a>
-            <a class="menulink" href="https://www.youtube.com/watch?v=ddWJatRxfz8" style="background-image:url('/assets/Images/tabs/octagon.gif')">
-            </a>
-            <a class="menulink" href="https://www.youtube.com/watch?v=OYG8Ul276-w" style="background-image:url('/assets/Images/tabs/terry.gif')">
-            </a>
-            <a class="menulink" href="https://store.steampowered.com/app/531510/Just_Shapes__Beats/" style="background-image:url('/assets/Images/tabs/shapesnbeats.gif')">
-            </a>
-            <a class="menulink" href="https://smlwiki.com/" style="background-image:url('/assets/Images/tabs/smlwiki.png')">
-            </a>
-            <a class="menulink" href="https://www.reddit.com/r/unixporn" style="background-image:url('/assets/Images/tabs/unixporn.png')">
-            </a>
-            <a class="menulink" href="https://saraistupid.github.io/" style="background-image:url('/assets/Images/tabs/saraistupid.gif')">
-            </a>
-            <a class="menulink" href="https://myanimelist.net/anime/30721/Hacka_Doll_The_Animation" title='not "amazing" but not bad either, but it has a trap in it so who cares ¯\_(ツ)_/¯ ' style="background-image:url('/assets/Images/tabs/hackadoll.png')">
-            </a>
-            <a class="menulink" style="background-image:url('/assets/Images/tabs/killmebaby.png')" href=" ">
-            </a>
-            <a class="menulink" href="https://knowyourmeme.com/" style="background-image:url('/assets/Images/tabs/kym.png')">
-            </a>
-            <a class="menulink" style="background-image:url('/assets/Images/tabs/typescript.png')" href=" ">
-            </a>
-            <a class="menulink" style="background-image:url('/assets/Images/tabs/rhf.gif')" href=" ">
-            </a>
-            <a class="menulink" style="background-image:url('/assets/Images/tabs/screenrecorder.png')" href="https://awesomescreenrecorder.com">
-            </a>
-            <a class="menulink" style="background-image:url('/assets/Images/tabs/windows9.png')">
-            </a>
-            <hr>
-            <center>                
-                <a href="https://mmaker.moe/"><img src="/assets/Images/tabs_classic/mmaker.gif"></a>
-                <a href="https://www.smbxgame.com/"><img src="/assets/Images/tabs_classic/smbx.gif"></a>
-                <a href="https://www.youtube.com/watch?v=ddWJatRxfz8"><img src="/assets/Images/tabs_classic/octagon.gif"></a>
-                <a href="https://www.youtube.com/watch?v=OYG8Ul276-w"><img src="/assets/Images/tabs_classic/terry.gif"></a>
-                <a href="/"><img src="/assets/Images/tabs_classic/minecraft.gif"></a>
-                <a href="/"><img src="/assets/Images/tabs_classic/coco_cade.gif"></a>
-                <a href="https://code.visualstudio.com/"><img src="/assets/Images/tabs_classic/vscbutton.gif"></a>
-                <a href="https://dopi.sexy/"><img src="/assets/Images/tabs_classic/dopi.gif"></a>
-                <a href="https://www.oneshot-game.com/"><img src="/assets/Images/tabs_classic/theworldmachine.gif"></a>
-                <a href="https://stabyourself.net/"><img src="/assets/Images/tabs_classic/stys.png"></a>
-                <a href="/"><img src="/assets/Images/tabs_classic/discord-no-way.gif"></a>
-                <a href="/"><img src="/assets/Images/tabs_classic/wii.gif"></a>
-                <a href="/"><img src="/assets/Images/tabs_classic/ss.png"></a>
-                <a href="/"><img src="/assets/Images/tabs_classic/adobe.gif"></a>
-                <a href="/"><img src="/assets/Images/tabs_classic/godblessbutton1.gif"></a>
-                <a href="https://talkhaus.raocow.com/"><img src="/assets/Images/tabs_classic/talkhaus.gif"></a>
-                <a href="https://josef.neocities.org/"><img src="/assets/Images/tabs_classic/alulabutton.gif"></a>
-                <a href="/"><img src="/assets/Images/tabs_classic/gaywomen.gif"></a>
-                <a href="/"><img src="/assets/Images/tabs_classic/piss.gif"></a>
-                <a href="/"><img src="/assets/Images/tabs_classic/lol.gif"></a>
-                <a href="/"><img src="/assets/Images/tabs_classic/hikikomorigrave.gif"></a>
-                <a href="https://github.com/Starpelly"><img src="/assets/Images/tabs_classic/github-check.gif"></a>
-            </center>
-            <hr>
-            <center>
-                <a href="https://xkcd.com/285/"><img src="/assets/Images/tabs_classic/citationneededstamp.png"></a>
-            </center>
-            <hr>
-            <center>
-            <!-- FC2 Counter  Starts here -->
-            <script language="javascript" type="text/javascript" src="//counter1.fc2.com/counter.php?id=39633438&main=1"></script><noscript><img src="//counter1.fc2.com/counter_img.php?id=39633438&main=1" /></noscript>
-            <!-- FC2 Counter  Ends here -->
-            </center>
-     </div>
+        <div class="grid_1 contentholder">
+            <div class="pad2">  
+                <a class="menulink" href="/" style="background-image:url('/assets/Images/tabs/homepage.png')">
+                </a>
+                <a class="menulink" href="https://motionmelody.com" style="background-image:url('/assets/Images/tabs/motionmelody.png')">
+                </a>
+                <a class="menulink" href="https://www.newgrounds.com" style="background-image:url('/assets/Images/tabs/newgrounds.gif')">
+                </a>
+                <a class="menulink" href="https://store.steampowered.com/app/322170/Geometry_Dash/" style="background-image:url('/assets/Images/tabs/gd.gif')">
+                </a>
+                <a class="menulink" href="https://www.nicovideo.jp/" style="background-image:url('/assets/Images/tabs/niconico.gif')">
+                </a>
+                <a class="menulink" href="https://www.smwcentral.net/" style="background-image:url('/assets/Images/tabs/smw.gif')">
+                </a>
+                <a class="menulink" href="/otomad" style="background-image:url('/assets/Images/tabs/otomad.gif')">
+                </a>
+                <a class="menulink" href="https://walfas.org/" style="background-image:url('/assets/Images/tabs/walfas.org.png')">
+                </a>
+                <a class="menulink" href="https://www.beeflang.org/" style="background-image:url('/assets/Images/tabs/beeflang.png')">
+                </a>
+                <a class="menulink" href="https://www.youtube.com/watch?v=ddWJatRxfz8" style="background-image:url('/assets/Images/tabs/octagon.gif')">
+                </a>
+                <a class="menulink" href="https://www.youtube.com/watch?v=OYG8Ul276-w" style="background-image:url('/assets/Images/tabs/terry.gif')">
+                </a>
+                <a class="menulink" href="https://store.steampowered.com/app/531510/Just_Shapes__Beats/" style="background-image:url('/assets/Images/tabs/shapesnbeats.gif')">
+                </a>
+                <a class="menulink" href="https://smlwiki.com/" style="background-image:url('/assets/Images/tabs/smlwiki.png')">
+                </a>
+                <a class="menulink" href="https://www.reddit.com/r/unixporn" style="background-image:url('/assets/Images/tabs/unixporn.png')">
+                </a>
+                <a class="menulink" href="https://saraistupid.github.io/" style="background-image:url('/assets/Images/tabs/saraistupid.gif')">
+                </a>
+                <a class="menulink" href="https://myanimelist.net/anime/30721/Hacka_Doll_The_Animation" title='not "amazing" but not bad either, but it has a trap in it so who cares ¯\_(ツ)_/¯ ' style="background-image:url('/assets/Images/tabs/hackadoll.png')">
+                </a>
+                <a class="menulink" style="background-image:url('/assets/Images/tabs/killmebaby.png')" href=" ">
+                </a>
+                <a class="menulink" href="https://knowyourmeme.com/" style="background-image:url('/assets/Images/tabs/kym.png')">
+                </a>
+                <a class="menulink" style="background-image:url('/assets/Images/tabs/typescript.png')" href=" ">
+                </a>
+                <a class="menulink" style="background-image:url('/assets/Images/tabs/rhf.gif')" href=" ">
+                </a>
+                <a class="menulink" style="background-image:url('/assets/Images/tabs/screenrecorder.png')" href="https://awesomescreenrecorder.com">
+                </a>
+                <a class="menulink" style="background-image:url('/assets/Images/tabs/windows9.png')">
+                </a>
+                <hr>
+                <center>                
+                    <a href="https://mmaker.moe/"><img src="/assets/Images/tabs_classic/mmaker.gif"></a>
+                    <a href="https://www.smbxgame.com/"><img src="/assets/Images/tabs_classic/smbx.gif"></a>
+                    <a href="https://www.youtube.com/watch?v=ddWJatRxfz8"><img src="/assets/Images/tabs_classic/octagon.gif"></a>
+                    <a href="https://www.youtube.com/watch?v=OYG8Ul276-w"><img src="/assets/Images/tabs_classic/terry.gif"></a>
+                    <a href="/"><img src="/assets/Images/tabs_classic/minecraft.gif"></a>
+                    <a href="/"><img src="/assets/Images/tabs_classic/coco_cade.gif"></a>
+                    <a href="https://code.visualstudio.com/"><img src="/assets/Images/tabs_classic/vscbutton.gif"></a>
+                    <a href="https://dopi.sexy/"><img src="/assets/Images/tabs_classic/dopi.gif"></a>
+                    <a href="https://www.oneshot-game.com/"><img src="/assets/Images/tabs_classic/theworldmachine.gif"></a>
+                    <a href="https://stabyourself.net/"><img src="/assets/Images/tabs_classic/stys.png"></a>
+                    <a href="/"><img src="/assets/Images/tabs_classic/discord-no-way.gif"></a>
+                    <a href="/"><img src="/assets/Images/tabs_classic/wii.gif"></a>
+                    <a href="/"><img src="/assets/Images/tabs_classic/ss.png"></a>
+                    <a href="/"><img src="/assets/Images/tabs_classic/adobe.gif"></a>
+                    <a href="/"><img src="/assets/Images/tabs_classic/godblessbutton1.gif"></a>
+                    <a href="https://talkhaus.raocow.com/"><img src="/assets/Images/tabs_classic/talkhaus.gif"></a>
+                    <a href="https://josef.neocities.org/"><img src="/assets/Images/tabs_classic/alulabutton.gif"></a>
+                    <a href="/"><img src="/assets/Images/tabs_classic/gaywomen.gif"></a>
+                    <a href="/"><img src="/assets/Images/tabs_classic/piss.gif"></a>
+                    <a href="/"><img src="/assets/Images/tabs_classic/lol.gif"></a>
+                    <a href="/"><img src="/assets/Images/tabs_classic/hikikomorigrave.gif"></a>
+                    <a href="https://github.com/Starpelly"><img src="/assets/Images/tabs_classic/github-check.gif"></a>
+                </center>
+                <hr>
+                <center>
+                    <a href="https://xkcd.com/285/"><img src="/assets/Images/tabs_classic/citationneededstamp.png"></a>
+                </center>
+                <hr>
+                <center>
+                <!-- FC2 Counter  Starts here -->
+                <script language="javascript" type="text/javascript" src="//counter1.fc2.com/counter.php?id=39633438&main=1"></script><noscript><img src="//counter1.fc2.com/counter_img.php?id=39633438&main=1" /></noscript>
+                <!-- FC2 Counter  Ends here -->
+                </center>
+        </div>
+        </div>
     </div>
 </div>
