@@ -9,8 +9,10 @@
     {{ partialCached "navbar.html" . }}
     <div class="grid_3">
       <div class="contentholder">
-        <div class="contenttitle" style="background-image:url('/assets/bannerHome.png')">
-            <h1>{{ site.Title }}</h1>
+        <div class="contenttitle" style="background-image: url('/assets/bannerHome.png'); background-size: cover;">
+          <h1>
+            <a href="/">{{ site.Title }}</a>
+          </h1>
         </div>
         <div class="contentpad">
           <main>
