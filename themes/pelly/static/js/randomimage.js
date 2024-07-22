@@ -2,13 +2,13 @@ window.onload = choosePic;
 
 var myPix = new Array(
 	"assets/pfpcrop.png",
-	"assets/randomimages/0.jpg",
 	"assets/otherpelly.jpg",
+	"assets/randomimages/0.jpg",
 	"assets/randomimages/legacy/9hlskc5c6nc41.gif",
 	"assets/randomimages/legacy/500px-OoOOooer.gif",
 	"assets/randomimages/legacy/2967891_ep_1514387985_2.jpg",
 	"assets/randomimages/legacy/1437033731_OOOOOOOOAAAAAAAAAAAAH.gif",
-	"assets/randomimages/legacy/1Apquga.gif",
+	"assets/randomimages/legacy/Apquga.gif",
 	"assets/randomimages/legacy/artworks-000205278199-77zuj6-t500x500.jpg",
 	"assets/randomimages/legacy/d7572276e80bd31449710f6a28c3b6b1.jpg",
 	"assets/randomimages/legacy/hqdefault.jpg",
