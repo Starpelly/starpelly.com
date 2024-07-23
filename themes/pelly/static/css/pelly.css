@@ -166,6 +166,7 @@ b {
 	border-width:0;
 	border-style:hidden;
 	border-radius: 4px;
+	outline: #191919 solid 2px;
 }
 
 .links {
@@ -198,7 +199,7 @@ b {
 
 .menulink:hover {
 	outline: rgb(212, 212, 212) solid 2px;
-	outline-offset: -2px;
+	outline-offset: 2px;
 	border-style: solid;
 	text-decoration:none;
 }
@@ -247,21 +248,31 @@ b {
 }
 
 .sociallink:hover {
+	/*
     transform: scale(0.85);
     transition-duration: 0.5s;
 	transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	*/
 }
 
 .sociallink:not(:hover) {
+	/*
 	transform: scale(1.0);
     transition-duration: 0.5s;
 	transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	*/
 }
 
 .sociallink img {
 	width: 34px;
 	object-fit: scale-down;
 	border-radius: 8px;
+	outline: #191919 solid 2px;
+}
+
+.sociallink img:hover {
+	outline: rgb(212, 212, 212) solid 2px;
+	outline-offset: 2px;
 }
 
 .socialspacer {
