@@ -1,6 +1,8 @@
 +++
-title = 'About'
+title = 'About Me'
 +++
+
+<img src="/images/dankichuhd.png" alt="avatar" width="120px" style="float: left; margin-right: 8px;"/>
 
 My name is Braedon, I made this site cause I had the domain and the old site looked boring as hell.
 I'm a visual effects artist and computer programmer. I'm an American interested in making and sharing open source software and video games.
