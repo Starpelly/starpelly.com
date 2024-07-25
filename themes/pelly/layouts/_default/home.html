@@ -1,7 +1,11 @@
 {{ define "main" }}
   {{ .Content }}
-  {{ range where site.RegularPages "Section" "==" "blog" }}
 
+  {{ $pages := where site.RegularPages "Type" "blog" }}
+  {{ $paginator := .Paginate $pages.ByDate.Reverse 5 }}
+
+  
+  {{ range $paginator.Pages }}
 
   <div class="article">
     {{ if .Date }}
@@ -19,5 +23,7 @@
       {{ .Content }}
     </div>
   </div>
+
   {{ end }}
+  
 {{ end }}

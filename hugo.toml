@@ -30,3 +30,8 @@ weight = 20
 name = 'About After Effects'
 pageRef = '/about-after-effects'
 weight = 30
+
+[pagination]
+  disableAliases = false
+  pagerSize = 3
+  path = 'page'

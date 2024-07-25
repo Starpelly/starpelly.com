@@ -459,7 +459,7 @@ b {
 	background-color:#191919;
 	text-align:center;
 	padding-right:20px;
-	border-radius:7px 0px 0px 7px;
+	border-radius: 8px 0px 0px 8px;
 	margin-left:10px;
 	margin-right:-20px;
 	cursor:default;
@@ -567,4 +567,15 @@ hr {
 .navbarcontent > *:not(:last-child) {
 	display: block;
 	margin-bottom: 10px;
+}
+
+.pagination {
+	padding: 8px;
+	display: flex;
+	align-items: center;
+	max-height: 24px;
+}
+
+.pagination a {
+	margin-left: 6px;
 }
