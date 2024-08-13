@@ -82,16 +82,26 @@ h2 {
 ul {
 	margin:0;
 	margin-bottom:25px;
-	list-style-type: none;
 	padding:0;
 	padding-left:15px;
 }
 
+/*
 li {
        margin-left:-15px;
        background: url("../images/bg/dot.png") no-repeat 0px 5px;
        padding-left:15px;
        margin-top:1em;
+}
+*/
+
+blockquote {
+	border-radius: 8px;
+	background: rgba(0, 0, 0, 0.205);
+	border-left: 4px solid #00000096;
+	margin: 0px;
+	padding: 2px 6px 2px 10px;
+	quotes: "\201C""\201D""\2018""\2019";
 }
 
 b {
@@ -446,7 +456,7 @@ b {
 }
 
 .article p {
-	margin-block: 1.5em;
+	margin-block: 1.04em;
 }
 
 .articledate {
