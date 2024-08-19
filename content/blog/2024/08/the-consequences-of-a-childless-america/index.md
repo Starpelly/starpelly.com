@@ -3,8 +3,6 @@ title = 'The Consequences of a Childless America'
 date = 2024-08-12T23:02:36-04:00
 +++
 
-## DRAFT #1
-
 I've been very interested in population decline since I was about fifteen. I'm not sure why, probably just an autistic thought I've had for a while. I've decided to put my thoughts about it here.
 
 When the Industrial Revolution happened, what we know as "modern society" was created, and we live in it today. Most people take advantage of this society without truly understanding how we've gotten to it. 
