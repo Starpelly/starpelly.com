@@ -17,7 +17,7 @@ There are three main reasons people don't want to reproduce anymore (not countin
 
 The biggest perpetuator of these problem is, ironically enough, are capitalist business owners. Some <small>(or most)</small> companies do not support paid family leave, or any equivalent. This has led to most childless people to believe that they simply can't afford children.
 
-![alt text](image-1.png)
+![alt text](/images/the-consequences-of-a-childless-america/image-1.png)
 
 And in **some** cases, they're probably right. *However*, in most instances the simple fact of the matter is that most humans are simply too hedonistic to actually care about reproducing. For most people, reproducing is a *very last* thing they want to do when they're absolutely confident that it won't "get in the way" of anything else in their lives. The obvious implication of this is millions of people who never reproduce because these people are never confident about anything.
 
@@ -35,7 +35,7 @@ The worst part of this is that no country has been successful in stopping this t
 
 Unless you're Israel... Jesus. What's their secret?
 
-![alt text](image.png)
+![alt text](/images/the-consequences-of-a-childless-america/image.png)
 
 The implication is obvious no matter which way you look at it: When people have other things they'd rather do, they choose not to have kids. This is a bug that really cannot be fixed. A bug that modern society is simply not compatible with. When people want to take advantage of a society that runs on young people's labor while refusing to create more young people... well... that's just the basic economic principle of supply and demand.
 
