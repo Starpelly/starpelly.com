@@ -9,6 +9,8 @@ I'm a visual effects artist and computer programmer. I'm an American interested 
 
 I'm also a devout Christian and I might make a few posts about theology.
 
+<br>
+
 # Work
 
 I have been creating video games and software since I was about 13 years old. And I haven't really been able to stop since.
