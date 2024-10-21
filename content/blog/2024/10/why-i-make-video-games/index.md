@@ -1,7 +1,6 @@
 +++
 title = 'Why I Make Video Games'
 date = 2024-10-21T03:38:58-04:00
-draft = true
 +++
 
 While my body is sweating and my head hurts, I stare at my screen wondering why am I doing this? Making a video game for people to play and toss away next minute.
