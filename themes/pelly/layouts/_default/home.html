@@ -9,16 +9,16 @@
 
   <div class="article">
     {{ if .Date }}
-    <div class="articledate">
-      <div class="articleday">
+    <div class="article-date">
+      <div class="article-day">
         {{ .Date.Format "01/02/2006" }}
       </div>
     </div>
     {{ end }}
-    <div class="articletitle">
+    <div class="article-title">
       <a rel="prefetch" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
     </div>
-    <div class="articlebody">
+    <div class="article-body">
       <hr>
       {{ .Content }}
     </div>

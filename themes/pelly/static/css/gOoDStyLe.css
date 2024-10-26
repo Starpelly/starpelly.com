@@ -123,7 +123,7 @@ b {
 	padding-right:10px;
 }
 
-.pad2 {
+.pad_2 {
 	padding-left:10px;
 	padding-right:10px;
 	padding-top:10px;
@@ -156,7 +156,7 @@ b {
 /* Main Menubar
 ----------------------------------------------------------------------------------------------------*/
 
-.menulink {
+.menu-link {
 	display:block;
 	position:relative;
 	height:69px;
@@ -169,19 +169,19 @@ b {
 	border-style:hidden;
 }
 
-.menulink:hover {
+.menu-link:hover {
 	outline:#b64fca solid 2px;
 	outline-offset:-8px;
 	text-decoration:none;
 	color:#b64fca;
 	border-style:solid;
 }
-.menulink:visited {
+.menu-link:visited {
 	text-decoration:none;
 	/*fix for chrome and ie7. surprise*/
 }
 
-.menulink .textcnt {
+.menu-link .textcnt {
 	display:block;
 	position:absolute;
 	top:0;
@@ -204,7 +204,7 @@ b {
 	font-weight:bold;
 }
 
-.menulink .wiptag {
+.menu-link .wiptag {
 	/*MAURICE WANTED THIS*/
 	background-color:#400;
 }
@@ -262,7 +262,7 @@ b {
 /*Content title bar container
 ----------------------------------------------------------------------------------------------------*/
 
-.contenttitle {
+.content-title {
 	height:120px;
 	width:660px;
 	border-top-left-radius:10px;
@@ -275,7 +275,7 @@ b {
 	position:relative;
 }
 
-.contenttitle p {
+.content-title p {
 	font-size:165px;
 	padding:0px;
 	top:-32px;
@@ -288,7 +288,7 @@ b {
     background-color: #cdd680;
 }
 
-.contenttitle p.p2 {
+.content-title p.p2 {
 	color:#000;
 	top:14px;
 	left:24px;
@@ -412,7 +412,7 @@ b {
 	background-image:none;	
 }
 
-.articledate {
+.article-date {
 	float:right;
 	color:#DDD;
 	top:0;
@@ -427,7 +427,7 @@ b {
 	margin-right:-20px;
 	cursor:default;
 }
-.articleday {
+.article-day {
 	height:42px;
 	font-size:20px;
     font-weight:bold;
@@ -440,7 +440,7 @@ b {
 }
 
 
-.articletitle{
+.article-title{
 	position:absolute;
 	float:none;
 	top:27px;

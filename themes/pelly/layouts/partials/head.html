@@ -1,8 +1,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="/css/pelly.css">
-    <link rel="stylesheet" type="text/css" href="/css/layout.css">
+
+    {{ $style_pelly := resources.Get "/scss/pelly.scss" | resources.ToCSS | resources.Fingerprint }}
+    {{ $style_layout := resources.Get "/scss/layout.scss" | resources.ToCSS | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style_pelly.Permalink }}" integrity="{{ $style_pelly.Data.Integrity }}">
+    <link rel="stylesheet" href="{{ $style_layout.Permalink }}" integrity="{{ $style_layout.Data.Integrity }}">
+
     <link rel="icon" type="image/png" href="/favicon.png">
     {{ $title := print .Site.Title " | " .Title }}
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
