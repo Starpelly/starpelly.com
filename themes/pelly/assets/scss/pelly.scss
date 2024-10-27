@@ -209,7 +209,6 @@ a {
 	position:relative;
 	height:69px;
 	width:200px;
-	margin-bottom:10px;
 	outline:0;
 	text-decoration:none;
 	color:#FFF;
@@ -217,6 +216,10 @@ a {
 	border-style:hidden;
 	border-radius: $button-rounding;
 	outline: #191919 solid 2px;
+
+	&:not(:last-child) {
+		margin-bottom:10px;
+	}
 }
 
 .menulink-geocity {
@@ -505,7 +508,6 @@ a {
 
 .article-body {
 	padding-top:42px;
-	max-width:680px;
 	min-height:258px;
 
 	img {
@@ -573,15 +575,26 @@ hr {
 	border-top: 2px solid #191919
 }
 
+.navbarwrap {
+	/*
+	background-color: #191919;
+	outline: #191919 solid 2px;
+	border-radius: 4px;
+	*/
+}
+
 .navbar-content > *:not(:last-child) {
 	display: block;
 	margin-bottom: 10px;
+	// margin-bottom: 2px;
 }
 
 /* Pagination */
 .pagination {
 	margin: 0;
 	display: flex;
+	background-color: #262626;
+	border-radius: 4px;
 
 	ul {
 		list-style: none;

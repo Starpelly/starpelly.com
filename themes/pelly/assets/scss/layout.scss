@@ -2,13 +2,17 @@ body {
   min-width: 960px;
 }
 
+.container {
+  display: flex;
+  margin: 8px auto !important;
+}
+
 .container_4 {
-  margin: 8px auto;
-	  width: 960px;
+  margin: auto;
+	width: 960px;
 }
 .container_4 > *:not(:last-child) {
   display: block;
-  margin: 5px;
 }
 
 .header {
@@ -73,8 +77,8 @@ body {
 }
 
 .container_4 .grid_3 {
-  width:720px;
-  margin-bottom: 8px;
+  flex: 1;
+  margin-left: 8px;
 }
 
 .container_4 .grid_4 {
