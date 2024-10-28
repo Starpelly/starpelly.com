@@ -5,7 +5,8 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:image" content="{{ .Site.BaseURL }}favicon.png">
     <meta name="twitter:title" content="{{ .Title }}">
-
+    <meta name="twitter:description" content="{{ .Summary | default .Params.description }}">
+    
     {{ $style_pelly := resources.Get "/scss/pelly.scss" | resources.ToCSS | resources.Fingerprint }}
     {{ $style_layout := resources.Get "/scss/layout.scss" | resources.ToCSS | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style_pelly.Permalink }}" integrity="{{ $style_pelly.Data.Integrity }}">
