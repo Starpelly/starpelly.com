@@ -2,7 +2,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}favicon.png">
     <meta name="twitter:title" content="{{ .Title }}">
 
     {{ $style_pelly := resources.Get "/scss/pelly.scss" | resources.ToCSS | resources.Fingerprint }}
