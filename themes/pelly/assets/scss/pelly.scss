@@ -12,6 +12,7 @@ $font-title: "Popjoy";
 
 // Rounding
 $button-rounding: 4px;
+$border-rounding: 0px;
 
 // Colors
 $color-text: rgb(240, 240, 240);
@@ -24,6 +25,7 @@ $color-secondary: #92bdff;
 $color-secondary-2: rgba($color-secondary, .3);
 $color-secondary-3: rgba($color-secondary, .15);
 
+$color-page-background: #212121;
 $color-background: #333;
 
 html,
@@ -41,7 +43,7 @@ body {
 
 	color: $color-text;
 
-	background-color: #212121;
+	background-color: $color-page-background;
 	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 8 8'%3E%3Cg fill='%232e2f31' fill-opacity='0.2'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
 
 	animation: scrollingBG linear 1s infinite;
@@ -156,10 +158,17 @@ a {
 	outline: #adadad solid 2px;
 }
 
+.container {
+	background-color: #191919;
+	outline: #191919 solid 2px;
+	border-radius: $border-rounding;
+}
+
 .content-holder {
 	background-color: #191919;
 	outline: #191919 solid 2px;
-	border-radius: 4px;
+	border-radius: $border-rounding;
+	overflow: hidden;
 }
 
 .header {
@@ -462,7 +471,7 @@ a {
 	background-repeat: repeat-x;
 	min-height: 300px;
 	background-color: $color-background;
-	border-radius: 4px;
+	border-radius: $border-rounding;
 
 	p {
 		margin-block: 1.04em;
@@ -576,16 +585,14 @@ hr {
 }
 
 .navbarwrap {
-	/*
 	background-color: #191919;
 	outline: #191919 solid 2px;
-	border-radius: 4px;
-	*/
+	border-radius: $border-rounding;
 }
 
 .navbar-content > *:not(:last-child) {
 	display: block;
-	margin-bottom: 10px;
+	margin-bottom: 2px;
 	// margin-bottom: 2px;
 }
 
