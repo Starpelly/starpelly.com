@@ -22,6 +22,11 @@ pageRef = '/projects'
 weight = 20
 
 [[menus.pages]]
+name = 'Things I Like'
+pageRef = '/things'
+weight = 5
+
+[[menus.pages]]
 name = 'Videos'
 pageRef = '/videos'
 weight = 10
