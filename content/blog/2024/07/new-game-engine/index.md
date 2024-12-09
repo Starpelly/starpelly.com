@@ -5,7 +5,7 @@ date = 2024-07-28T03:21:16-04:00
 
 While Motionmelody has been fun to make, the one thing that I regret every single day is the fact that I have to use this shitty, slow, bug-prone garbage collected game engine. You may have heard of it, it's called Unity.
 
-![unity editor](/images/new-game-engine/image.png)
+{{< img src="image1.png" >}}
 
 In the future, after Motionmelody is released and we officially start production of our next game, I will be writing an article about everything I hate about Unity and why we're using and maintaining our own game engine for the foreseeable future.
 
@@ -132,4 +132,4 @@ public static class Drawing
 
 This system might change a bit as we develop the engine more but I'm proud of how it works right now. It's probably better than how Unity manages it, for sure.
 
-![engine screeny](/images/new-game-engine/image2.png)
+{{< img src="image2.png" >}}

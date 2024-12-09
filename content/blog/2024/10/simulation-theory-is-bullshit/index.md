@@ -6,7 +6,7 @@ date = 2024-10-25T05:35:54-04:00
 Getting diagnosed with mental illness is a bitch. In a certain way, you're treated as "less as" than others.
 I'm sure many people already know this, though. It makes me feel angry and alienated.
 
-<img src="/images/simulation-theory-is-bullshit/0.jpg" style="max-width: 30%">
+{{< img src="image1.png" style="max-width: 30%" >}}
 
 As a Christian who lives with mental illness who literally believes that the resurrection happened in a very literal way,
 I find it stupidly offensive when some redditor dismisses me as 'insane' or 'ridiculous', only to then promote ideas like 

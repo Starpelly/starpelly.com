@@ -8,7 +8,7 @@ It includes a fully-featured script editor so you won't have to use Visual Studi
 
 In the future I'm planning on adding a debugger and maybe an intellisense-like system.
 
-![image](/images/motionmelody-plus-lua/1.png)
+{{< img src="image1.png" >}}
 
 I was mostly inspired by NotITG and the amount of bullshit you're able to do in that game. Hopefully you'll be able to make some cool stuff with it.
 

@@ -15,11 +15,12 @@ I've started noticing this trend more commonly amongst Christian circles (as I a
 
 A member of one of The Eastern Orthodox Church has decided to make a tweet calling them out:
 
-![alt text](/images/i-hate-incels/image.png)
+{{< img src="image1.png" >}}
 
 He got harassed by one of these retards over his objectively reasonable tweet:
 
-![alt text](/images/i-hate-incels/image-2.png)
+{{< img src="image2.png" >}}
+
 <small>To be fair, this guy claims to not be Christian, but you can <a href="https://x.com/AudioScribeOW/status/1855022430026334378">read the replies yourself if you want more examples.</a></small>
 
 Good news is, this problem is mostly self-solving, as most of these men are ready to just move to a different church the moment their views are challenged; but that's not the point. I'm sick and tired of seeing these losers all day harass women and participate in other homosexual behavior.

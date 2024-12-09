@@ -4,6 +4,9 @@ title = 'Things I Like'
 
 This will be fancier... eventually
 
+# Articles
+* https://laurakalbag.com/processing-responsive-images-with-hugo/
+
 # Stories
 * https://www.reddit.com/r/nosleep/comments/1grzi24/emergency_alert_do_not_look_at_the_sky/
 

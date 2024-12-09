@@ -1,0 +1,12 @@
+{{/* get file that matches the filename as specified as src="" in shortcode */}}
+{{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
+
+<img 
+    src="{{ $src.RelPermalink }}" 
+    style="{{ .Get "style" | default "" }}"
+    {{ with .Get "alt" }}
+        alt="{{.}}"
+    {{ else }}
+        alt=""
+    {{ end }}
+>

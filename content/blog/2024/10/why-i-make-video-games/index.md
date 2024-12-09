@@ -13,4 +13,4 @@ I haven't eaten in days, and yet I sit here more, waiting to complete my creatio
 
 Work on Motionmelody continues slowly. Maybe one day, it will finally be completed.
 
-![alt text](/images/why-i-make-video-games/image.png)
+{{< img src="image1.png" >}}
