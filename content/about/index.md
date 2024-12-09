@@ -20,12 +20,6 @@ Do you want to high five? Ask me a question? Tell me how much of a piece of shit
 
 Email me at braedon@starpelly.com
 
-# Politics
-
-Not much to say about it, I don't mention politics much. Although, I do hold some strong beliefs:
-* I'm pro-life
-* I'm [asexual](https://en.wikipedia.org/wiki/Asexuality)
-
 # Advertising on starpelly.com
 
 I'd prefer to have a 100% ad-free website. We aren't consoomers around here.
