@@ -1,4 +1,12 @@
-window.onload = choosePic;
+// window.onload = choosePic;
+
+document.onreadystatechange = function(e)
+{
+	if (document.readyState === 'interactive')
+	{
+		choosePic();
+	}
+}
 
 var myPix = new Array(
 	"/assets/pfpcrop.png",
@@ -44,6 +52,6 @@ function choosePic() {
 		console.log("downloaded img");
 	});*/
 
-	randomNum = Math.floor((Math.random() * myPix.length));
+	randomNum = Math.floor((Math.random() * (myPix.length - 1)));
 	document.getElementById("myPicture").src = myPix[randomNum];
 }
