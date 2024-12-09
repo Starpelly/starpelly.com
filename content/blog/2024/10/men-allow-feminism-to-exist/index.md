@@ -1,6 +1,7 @@
 +++
 title = 'Men Allow Feminism to Exist'
 date = 2024-10-28T13:21:19-04:00
+draft = true
 +++
 
 Modern men really like to blame societal acceptance of degeneracy on women, and while *yes*, women had a *part* in it, the truth of the matter is men just allowed it to happen. In fact, they enacted the whole thing.
