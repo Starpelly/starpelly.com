@@ -6,7 +6,7 @@ draft = true
 
 **TOTAL INCEL DEATH**. Kill incels. Behead incels. Roundhouse kick an incel to the concrete.
 
-Do you know what I hate more than a loser? A loser who makes it everyone else's problem. That's a loser that can only be generated from an advanced strain of autism.! The kind of autism I see from Twitter daily that would kill a small victorian child. A strain of autism plaguing unchallenged in our communities, and President Reagan isn't even doing anything about it!
+Do you know what I hate more than a loser? A loser who makes it everyone else's problem. That's a loser that can only be generated from an advanced strain of autism! The kind of autism I see from Twitter daily that would kill a small victorian child. A strain of autism plaguing unchallenged in our communities, and President Reagan isn't even doing anything about it!
 
 These autistic losers are called "incels", and they are by far, the uncontested worst group of people on Earth. *Along with crypto-bros taking a close 2nd place.*
 
