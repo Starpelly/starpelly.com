@@ -7,7 +7,7 @@ date = 2025-03-31T21:52:09-04:00
 
 A couple weeks ago, I made and released a small Minesweeper clone with the initial goal of recreating that classic "Tetris" game loop. The results were quite excellent if you ask me.
 
-You can play it for yourself in the browser here:
+You can play it in the browser on itch.io:
 
 <iframe frameborder="0" src="https://itch.io/embed/3387576?bg_color=191919&amp;fg_color=eeeeee&amp;link_color=487591&amp;border_color=7887a6" width="552" height="167"><a href="https://starpelly.itch.io/minesweeper">Minesweeper+ by Starpelly</a></iframe>
 
