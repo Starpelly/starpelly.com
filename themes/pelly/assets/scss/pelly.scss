@@ -139,14 +139,14 @@ a {
 }
 
 .container {
-	background-color: #191919;
-	outline: #191919 solid $border-width;
+	background-color: $color-border;
+	outline: $color-border solid $border-width;
 	border-radius: $border-rounding;
 }
 
 .content-holder {
-	background-color: #191919;
-	outline: #191919 solid $border-width;
+	background-color: $color-border;
+	outline: $color-border solid $border-width;
 	border-radius: $border-rounding;
 	overflow: hidden;
 }
@@ -204,7 +204,7 @@ a {
 	border-width:0;
 	border-style:hidden;
 	border-radius: $button-rounding;
-	outline: #191919 solid 2px;
+	outline: $color-border solid 2px;
 
 	&:not(:last-child) {
 		margin-bottom:10px;
@@ -292,7 +292,7 @@ a {
 	width: 34px;
 	object-fit: scale-down;
 	border-radius: $button-rounding;
-	outline: #191919 solid 2px;
+	outline: $color-border solid 2px;
 
 	&:hover {
 		outline: rgb(212, 212, 212) solid 2px;
@@ -465,7 +465,7 @@ a {
 	left:0;
 	width:160px;
 	height:40px;
-	background-color:#191919;
+	background-color:$color-border;
 	text-align:center;
 	padding-right:20px;
 	border-radius: 8px 0px 0px 8px;
@@ -561,12 +561,12 @@ code {
 
 hr {
 	border: none;
-	border-top: 2px solid #191919
+	border-top: 2px solid $color-border
 }
 
 .navbarwrap {
-	background-color: #191919;
-	outline: #191919 solid $border-width;
+	background-color: $color-border;
+	outline: $color-border solid $border-width;
 	border-radius: $border-rounding;
 }
 
@@ -646,4 +646,10 @@ hr {
 
 .pagination-next {
 	order: 3;
+}
+
+textarea {
+	background-color: $color-background;
+	color: $color-text;
+	border: 1px solid $color-border;
 }
