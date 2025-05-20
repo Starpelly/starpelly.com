@@ -516,6 +516,13 @@ a {
 	}
 }
 
+.comments {
+	padding: 20px;
+
+	background-color: $color-background;
+	border-radius: $border-rounding;
+}
+
 .scr-resize {
 	text-align:center;
 	background-color:#222;
