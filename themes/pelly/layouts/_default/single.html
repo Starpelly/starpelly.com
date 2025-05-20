@@ -17,11 +17,14 @@
   </div>
 </div>
 
+<!--
 <div class="comments">
-    <h2>Comments</h2>
-    <hr>
+    <h1>Comments</h1>
     <div id="isso-thread"></div>
-    <script data-isso="https://comments.starpelly.com/isso/" src="https://comments.starpelly.com/isso/js/embed.min.js"></script>
+
+    {{ $style_isso := resources.Get "/scss/isso.scss" | resources.ToCSS | resources.Fingerprint }}
+    <script data-isso="http://15.204.245.97/" src="http://15.204.245.97/js/embed.min.js" data-isso-css-url="{{ $style_isso.Permalink }}"></script>
 </div>
+-->
 
 {{ end }}

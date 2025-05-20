@@ -516,13 +516,6 @@ a {
 	}
 }
 
-.comments {
-	padding: 20px;
-
-	background-color: $color-background;
-	border-radius: $border-rounding;
-}
-
 .scr-resize {
 	text-align:center;
 	background-color:#222;
@@ -670,4 +663,12 @@ center {
 		padding: 0;
 		text-indent: 0;
 	}
+}
+
+.comments {
+	padding: 20px;
+	padding-top: 1px;
+
+	background-color: $color-background;
+	border-radius: $border-rounding;
 }
