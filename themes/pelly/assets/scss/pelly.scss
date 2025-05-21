@@ -305,7 +305,6 @@ a {
 		@include outline();
 
 		.visual {
-			@include outline();
 			overflow: hidden;
 
 			transition: transform 0.2s ease;
@@ -340,22 +339,45 @@ a {
 				pointer-events: none;
 				opacity: 1;
 				mix-blend-mode: overlay;
-
 				border-radius: $button-rounding;
 			}
 		}
 
+		.hover-outline {
+			outline-color: rgba(255, 255, 255, 0);
+		}
+
 		&:hover {
+			z-index: 500;
+			@include outline();
+			
 			.hover-outline {
 				outline: rgb(212, 212, 212) solid 2px;
 				outline-offset: 2px;
-				border-radius: inherit;
+				border-radius: $button-rounding;
+				// transition: outline-color 0.2s ease;
 			}
 			
-			z-index: 500;
+			.visual {
+				@include outline();
+
+				transform: translateY(-4px);
+			}
+		}
+
+		&:not(:hover) {
+			// You have to trust me when I say this looks nicer.
+			// Old (top), New (bottom): https://imgur.com/a/fWCcQ1B
+			@keyframes blah {
+				0% {
+					@include outline();
+				}
+				100% {
+				}
+			}
 			
 			.visual {
-				transform: translateY(-4px);
+				animation: blah 0.2s step-end forwards;
 			}
 		}
 	}
