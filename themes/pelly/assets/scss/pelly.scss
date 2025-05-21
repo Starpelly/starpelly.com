@@ -260,6 +260,13 @@ a {
 	background-position:0px 0px;
 }
 
+.sociallinks {
+	display: flex;
+	flex-wrap: nowrap;
+	text-align: center;
+	max-height: 34px;
+}
+
 .sociallink {
 	position:relative;
 	display:inline-block;
