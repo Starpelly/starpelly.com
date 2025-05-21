@@ -1,9 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="455.73" height="455.73" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 455.73 455.73">
-  <g id="Layer_2">
-    <rect width="455.73" height="455.73" fill="#211335"/>
-  </g>
-  <g id="Layer_1">
-    <image width="256" height="256" transform="translate(16.23 15.35) scale(1.65)" xlink:href="C:\Users\Braedon\Downloads\flashii.net.ico.png"/>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 456 456">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #846d77;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #795d7e;
+      }
+
+      .cls-3 {
+        fill: #826879;
+      }
+
+      .cls-4 {
+        fill: #75567f;
+      }
+
+      .cls-10 {
+        fill: #251b2c;
+      }
+
+      .cls-5 {
+        fill: #7e647a;
+      }
+
+      .cls-6 {
+        fill: #674183;
+      }
+
+      .cls-7 {
+        fill: #643b84;
+      }
+
+      .cls-8 {
+        fill: #6b4882;
+      }
+
+      .cls-9 {
+        fill: #704f81;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709)  -->
+  <g>
+    <g id="Layer_1">
+      <g id="Layer_2">
+        <rect class="cls-10" width="456" height="456"/>
+      </g>
+      <g id="g285">
+        <path id="rect18" class="cls-1" d="M380.9,269l-31.9,118.9-21.4-5.7,31.9-118.9,21.4,5.7Z"/>
+        <path id="rect16" class="cls-3" d="M359.2,207.5l-31.8,118.9-21.4-5.7,31.8-118.9s21.4,5.7,21.4,5.7Z"/>
+        <path id="rect14" class="cls-5" d="M329.1,177.8l-31.8,118.9-21.4-5.7,31.8-118.9s21.4,5.7,21.4,5.7Z"/>
+        <path id="rect12" class="cls-2" d="M293.3,169.3l-31.9,118.9-21.4-5.7,31.9-118.9,21.4,5.7Z"/>
+        <path id="rect10" class="cls-4" d="M254.6,171.4l-31.9,118.9-21.4-5.7,31.9-118.9,21.4,5.7Z"/>
+        <path id="rect8" class="cls-9" d="M216,173.5l-31.9,118.9-21.4-5.7,31.9-118.9,21.4,5.7Z"/>
+        <path id="rect6" class="cls-8" d="M180.1,165l-31.8,118.9-21.4-5.7,31.8-118.9s21.4,5.7,21.4,5.7Z"/>
+        <path id="rect4" class="cls-6" d="M150,135.3l-31.8,118.9-21.4-5.7,31.8-118.9s21.4,5.7,21.4,5.7Z"/>
+        <path id="rect2" class="cls-7" d="M128.4,73.9l-31.9,118.9-21.4-5.7,31.9-118.9,21.4,5.7Z"/>
+      </g>
+    </g>
   </g>
 </svg>
