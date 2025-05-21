@@ -10,32 +10,58 @@
         <div class="grid_1 content-holder">
             <div class="pad_2" style="display: flex; flex-direction: column; gap: 10px;">
                 <div class="sociallinks">
-                    <a class="sociallink" title="YouTube" target="_blank" href="https://youtube.com/Starpelly" alt="">
-                        <img src="/assets/Images/social/youtube.svg">
-                    </a>
-                    <a class="sociallink" style="border-radius: 10px; background-color: white;" title="Instagram" target="_blank" href="https://instagram.com/Starpelly_" alt="">
-                        <img src="/assets/Images/social/instagram.svg">
-                    </a>
-                    <a class="sociallink" style="border-radius: 10px; background-color: white;" title="GitHub" target="_blank" href="https://github.com/starpelly">
-                        <img src="/assets/Images/social/github.svg">
-                    </a>
-                    <a class="sociallink" title="Steam" target="_blank" href="https://steamcommunity.com/id/starpelly/">
-                        <img src="/assets/Images/social/steam.svg">
-                    </a>
-                    <a class="sociallink" title="RSS Feed" target="_blank" href="/index.xml">
-                        <img src="/assets/Images/social/rss.svg">
-                    </a>
+
+                    {{ partialCached "navbar/social-link.html" (dict
+                        "title" "YouTube"
+                        "link" "https://youtube.com/Starpelly"
+                        "src"  "/assets/Images/social/youtube.svg"
+                    ) "YouTubeLink" }}
+
+                    {{ partialCached "navbar/social-link.html" (dict
+                        "title" "Instagram"
+                        "link" "https://instagram.com/Starpelly_"
+                        "src"  "/assets/Images/social/instagram.svg"
+                    ) "InstagramLink" }}
+
+                    {{ partialCached "navbar/social-link.html" (dict
+                        "title" "GitHub"
+                        "link" "https://github.com/starpelly"
+                        "src"  "/assets/Images/social/github.svg"
+                    ) "GitHubLink" }}
+
+                    {{ partialCached "navbar/social-link.html" (dict
+                        "title" "Steam"
+                        "link" "https://steamcommunity.com/id/starpelly/"
+                        "src"  "/assets/Images/social/steam.svg"
+                    ) "SteamLink" }}
+
+                    {{ partialCached "navbar/social-link.html" (dict
+                        "title" "RSS Feed"
+                        "link" "/index.xml"
+                        "src"  "/assets/Images/social/rss.svg"
+                    ) "RSSLink" }}
+
                 </div>
                 <div class="sociallinks">
-                                        <a class="sociallink" title="Substack" target="_blank" href="https://starpelly.substack.com">
-                        <img src="/assets/Images/social/substack.svg">
-                    </a>
-                    <a class="sociallink" title="Bluesky" target="_blank" href="https://bsky.app/profile/starpelly.com">
-                        <img src="/assets/Images/social/bluesky.svg">
-                    </a>
-                    <a class="sociallink" title="osu!" target="_blank" href="https://osu.ppy.sh/users/11549458">
-                        <img src="/assets/Images/social/osu.svg">
-                    </a>
+                    
+                    {{ partialCached "navbar/social-link.html" (dict
+                        "title" "Substack"
+                        "link" "https://starpelly.substack.com"
+                        "src"  "/assets/Images/social/substack.svg"
+                    ) "SubstackLink" }}
+
+                    {{ partialCached "navbar/social-link.html" (dict
+                        "title" "Bluesky"
+                        "link" "https://bsky.app/profile/starpelly.com"
+                        "src"  "/assets/Images/social/bluesky.svg"
+                    ) "BlueskyLink" }}
+
+                    {{ partialCached "navbar/social-link.html" (dict
+                        "title" "osu!"
+                        "link" "https://osu.ppy.sh/users/11549458"
+                        "src"  "/assets/Images/social/osu.svg"
+                    ) "OsuLink" }}
+
                 </div>
             </div>
         </div>

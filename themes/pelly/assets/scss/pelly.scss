@@ -279,6 +279,86 @@ a {
 	margin-right:8px;
 	margin-bottom:8px;
     vertical-align:top;
+
+	// border-radius: 10px;
+
+	$link-width: 34px;
+	$link-height: 34px;
+
+	background-color: $color-border;
+	border-radius: $button-rounding;
+
+	@mixin outline() {
+		outline: $color-border solid 2px;
+		border-radius: $button-rounding;
+	}
+
+	.img-container {
+		position: relative;
+		display: inline-block;
+		width: $link-width;
+		height: $link-height;
+
+		z-index: 500;
+		background-color: $color-border;
+
+		@include outline();
+
+		.visual {
+			@include outline();
+			overflow: hidden;
+
+			transition: transform 0.2s ease;
+			background-color: $color-border;
+
+			.bg {
+				position: absolute;
+				top: 0; left: 0;
+				width: 100%;
+				height: 100%;
+				pointer-events: none;
+				
+				background-color: white;
+				z-index: -10;
+				border-radius: $button-rounding + 8px;
+			}
+
+			.base {
+				display: block;
+				width: 100%;
+				height: 100%;
+
+				object-fit: scale-down;
+			}
+
+			.overlay {
+				position: absolute;
+				top: 0; left: 0;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				pointer-events: none;
+				opacity: 1;
+				mix-blend-mode: overlay;
+
+				border-radius: $button-rounding;
+			}
+		}
+
+		&:hover {
+			.hover-outline {
+				outline: rgb(212, 212, 212) solid 2px;
+				outline-offset: 2px;
+				border-radius: inherit;
+			}
+			
+			z-index: 500;
+			
+			.visual {
+				transform: translateY(-4px);
+			}
+		}
+	}
 }
 
 .sociallink:hover {
@@ -295,18 +375,6 @@ a {
     transition-duration: 0.5s;
 	transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 	*/
-}
-
-.sociallink img {
-	width: 34px;
-	object-fit: scale-down;
-	border-radius: $button-rounding;
-	outline: $color-border solid 2px;
-
-	&:hover {
-		outline: rgb(212, 212, 212) solid 2px;
-		outline-offset: 2px;
-	}
 }
 
 .socialspacer {
