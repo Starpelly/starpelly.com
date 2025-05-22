@@ -428,22 +428,6 @@ a {
 
 }
 
-.sociallink:hover {
-	/*
-    transform: scale(0.85);
-    transition-duration: 0.5s;
-	transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-	*/
-}
-
-.sociallink:not(:hover) {
-	/*
-	transform: scale(1.0);
-    transition-duration: 0.5s;
-	transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-	*/
-}
-
 .socialspacer {
 	display:none;
 	width:10px;
