@@ -195,6 +195,21 @@ a {
 	grid-row-gap: 10px;
 }
 
+.menulink-geocity {
+	display:block;
+	position:relative;
+	height:31px;
+	width:88px;
+	margin-bottom:10px;
+	outline:0;
+	text-decoration:none;
+	color:#FFF;
+	border-width:0;
+	border-style:hidden;
+}
+
+// Old menu link
+/*
 .menu-link {
 	display:block;
 	position:relative;
@@ -211,79 +226,29 @@ a {
 	&:not(:last-child) {
 		margin-bottom:10px;
 	}
-}
 
-.menulink-geocity {
-	display:block;
+	&:hover {
+		outline: rgb(212, 212, 212) solid 2px;
+		outline-offset: 2px;
+		border-style: solid;
+		text-decoration:none;
+	}
+
+	&:visited {
+		text-decoration:none;
+	}
+}
+	*/
+
+.THREEDEE-button {
 	position:relative;
-	height:31px;
-	width:88px;
-	margin-bottom:10px;
-	outline:0;
-	text-decoration:none;
-	color:#FFF;
-	border-width:0;
-	border-style:hidden;
-}
-
-.menu-link:hover {
-	outline: rgb(212, 212, 212) solid 2px;
-	outline-offset: 2px;
-	border-style: solid;
-	text-decoration:none;
-}
-.menu-link:visited {
-	text-decoration:none;
-}
-
-.menu-link .menulink-geocity .textcnt {
-	display:block;
-	position:absolute;
-	top:0;
-	left:0;
-	font-size:12px;
-	padding-top:3px;
-	padding-bottom:3px;
-	padding-left:6px;
-	padding-right:6px;
-	background:#111;
-	border-bottom-right-radius:5px;
-    border-style:inherit;
-	font-family: "Varta", serif;
-	color:inherit;
-	font-weight:bold;
-}
-
-.links {
-    width:200px;
-	display:inline-block;
-	background-position:0px 0px;
-}
-
-.sociallinks {
-	display: flex;
-	flex-wrap: nowrap;
-	text-align: center;
-	max-height: 34px;
-}
-
-.sociallink {
-	position:relative;
-	display:inline-block;
-	width: 33.5px;
-	height: 33.5px;
 	background-position:0px 0px;
 	outline:0;
 	margin:0;
 	margin-top:0px;
-	margin-right:8px;
-	margin-bottom:8px;
     vertical-align:top;
 
 	// border-radius: 10px;
-
-	$link-width: 34px;
-	$link-height: 34px;
 
 	background-color: $color-border;
 	border-radius: $button-rounding;
@@ -296,8 +261,8 @@ a {
 	.img-container {
 		position: relative;
 		display: inline-block;
-		width: $link-width;
-		height: $link-height;
+		width: inherit;
+		height: inherit;
 
 		z-index: 500;
 		background-color: $color-border;
@@ -341,46 +306,126 @@ a {
 				mix-blend-mode: overlay;
 				border-radius: $button-rounding;
 			}
+
+			.flash {
+				border-radius: $button-rounding;
+
+				position: absolute;
+				top: 0; left: 0;
+				width: 100%;
+				height: 100%;
+				mix-blend-mode: overlay;
+				z-index: 1;
+				pointer-events: none;
+
+				transition: opacity 0.2s ease;
+				background-color: rgba(255, 255, 255, 255);
+				opacity: 0;
+			}
 		}
 
 		.hover-outline {
 			outline-color: rgba(255, 255, 255, 0);
 		}
+	}
 
-		&:hover {
+	&:hover {			
+		.img-container {
+
 			z-index: 500;
 			@include outline();
-			
+				
 			.hover-outline {
 				outline: rgb(212, 212, 212) solid 2px;
 				outline-offset: 2px;
 				border-radius: $button-rounding;
 				// transition: outline-color 0.2s ease;
 			}
-			
+
 			.visual {
 				@include outline();
+				transform: translateY(-$anim-3dbutton-depth);
+			}
 
-				transform: translateY(-4px);
+			.flash {
+				opacity: 0.3;
 			}
 		}
+	}
 
-		&:not(:hover) {
-			// You have to trust me when I say this looks nicer.
-			// Old (top), New (bottom): https://imgur.com/a/fWCcQ1B
-			@keyframes blah {
-				0% {
-					@include outline();
-				}
-				100% {
-				}
+	&:not(:hover) {
+		// You have to trust me when I say this looks nicer.
+		// Old (top), New (bottom): https://imgur.com/a/fWCcQ1B
+		@keyframes blah {
+			0% {
+				@include outline();
 			}
-			
+			100% {
+			}
+		}
+		
+		.img-container {
 			.visual {
 				animation: blah 0.2s step-end forwards;
 			}
 		}
 	}
+}
+
+.menu-link {
+	display:inline-block;
+	width: 200px;
+	height: 69px;
+}
+
+.menu-link .menulink-geocity .textcnt {
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	font-size:12px;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:6px;
+	padding-right:6px;
+	background:#111;
+	border-bottom-right-radius:5px;
+    border-style:inherit;
+	font-family: "Varta", serif;
+	color:inherit;
+	font-weight:bold;
+}
+
+.links {
+    width:200px;
+	display:inline-block;
+	background-position:0px 0px;
+}
+
+.sociallinks {
+	display: flex;
+	flex-wrap: nowrap;
+	text-align: center;
+	max-height: 34px;
+}
+
+.sociallink {
+	position:relative;
+	display:inline-block;
+	width: 33.5px;
+	height: 33.5px;
+
+	margin-right:8px;
+	margin-bottom:8px;
+
+	$link-width: 34px;
+	$link-height: 34px;
+
+	.img-container {
+		width: $link-width;
+		height: $link-height;
+	}
+
 }
 
 .sociallink:hover {
