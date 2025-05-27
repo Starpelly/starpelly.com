@@ -18,9 +18,10 @@ body {
 }
 
 body {
-	font-family: $font-text, Helvetica, sans-serif;
+	font-family: /*$font-text,*/ Helvetica, sans-serif;
 	font-weight: normal;
-	font-size: 13px;
+	// font-size: 13px;
+	font-size: 14px;
 	overflow-y: scroll;
 
 	color: $color-text;
