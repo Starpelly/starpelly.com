@@ -1,8 +1,11 @@
 {{/* get file that matches the filename as specified as src="" in shortcode */}}
 {{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
 
+<div class="image-container">
 <img 
-    src="{{ $src.RelPermalink }}" 
+    src="{{ $src.RelPermalink }}"
+    class="clickable-image"
+    data-full="{{ $src.RelPermalink }}"
     style="{{ .Get "style" | default "" }}"
     {{ with .Get "alt" }}
         alt="{{.}}"
@@ -10,3 +13,13 @@
         alt=""
     {{ end }}
 >
+</div>
+
+<!-- Lightbox overlay -->
+<div id="lightbox" class="lightbox hidden">
+  <div class="lightbox-content">
+    <img id="lightbox-img" src="" alt="Full Size" />
+    <a id="view-original" href="" target="_blank">View original</a>
+    <span class="close">&times;</span>
+  </div>
+</div>
