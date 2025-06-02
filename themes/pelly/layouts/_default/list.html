@@ -4,19 +4,6 @@
   {{ .Content }}
 
   {{ range .Pages }}
-  <div class="article">
-    <div class="article-date">
-      <div class="article-day">
-        {{ .Date.Format "01/02/2006" }}
-      </div>
-    </div>
-    <div class="article-title">
-      <a rel="prefetch" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-    </div>
-    <div class="article-body">
-      <hr>
-      {{ .Summary }}
-    </div>
-  </div>
+    {{ partial "article.html" (dict "Page" . "showSummary" true) }}
   {{ end }}
 {{ end }}

@@ -1,0 +1,27 @@
+<div class="article">
+
+  <div class="article-info">
+          <div class="article-title">
+        <a rel="prefetch" href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+        {{ if .Page.Draft }}
+          <span class="draft">draft</span>
+        {{ end }}
+      </div>
+      {{ if .Page.Date }}
+      <div class="article-date">
+        <div class="article-day">
+          {{ .Page.Date.Format "01/02/2006" }}
+        </div>
+      </div>
+      {{ end }}
+  </div>
+
+  <div class="article-body">
+    <hr class="main-hr">
+    {{ if .showSummary }}
+      {{ .Page.Summary }}
+    {{ else }}
+      {{ .Page.Content }}
+    {{ end }}
+  </div>
+</div>
