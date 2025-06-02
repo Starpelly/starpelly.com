@@ -71,11 +71,6 @@ h2 {
 	line-height:1.5em;
 }
 
-ul {
-	margin: 0 0 25px;
-	padding: 0 0 0 15px;
-}
-
 i {
 	font-family: "Material Icons", $font-text, serif;
 	font-weight: normal;
@@ -114,6 +109,7 @@ b {
 	text-shadow: 2px 2px 1px #000;
 }
 
+/*
 a {
 	color: $color-secondary;
 
@@ -124,6 +120,20 @@ a {
 		color: $color-primary;
 	}
 }
+	*/
+
+	
+			a {
+				color: $color-secondary;
+
+				// color: white;
+				text-decoration: none;
+
+				&:hover {
+					color: $color-secondary;
+					text-decoration: underline;
+				}
+			}
 
 .grid_1,
 .grid_2,
@@ -596,16 +606,6 @@ a {
 
 			// background: url('../images/bg/heading2bg.png') no-repeat bottom;
 
-			a {
-				// color: white;
-				text-decoration: none;
-
-				&:hover {
-					color: $color-secondary;
-					text-decoration: underline;
-				}
-			}
-
 			.draft {
 				background-color: rgba(0, 0, 0, 0.575);
 				padding: 4px;
@@ -888,4 +888,34 @@ center {
 
 	background-color: $color-background;
 	border-radius: $border-rounding;
+}
+
+.archive-list {
+	margin-top: -4px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+
+	details > summary {
+		cursor: pointer;
+		font-size: 1.1em;
+		margin: 0.25em 0;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	li {
+		text-decoration: none;
+		// margin-left: 27.2px;
+		
+	}
+
+	ul {
+		// list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
 }

@@ -1,0 +1,35 @@
+{{ $pages := where site.RegularPages "Type" "blog" }}
+
+{{ $years := slice }}
+{{ range $group := ($pages.GroupByDate "2006") }}
+  {{ $years = $years | append $group }}
+{{ end }}
+
+<div class="archive-list">
+  {{ range sort $years "Key" "desc" }}
+  {{ $yearCount := len .Pages }}
+    <details>
+      <summary><strong>{{ .Key }} ({{ $yearCount }})</strong></summary>
+
+      {{ $months := slice }}
+      {{ range $monthGroup := (.Pages.GroupByDate "2006-01") }}
+        {{ $months = $months | append $monthGroup }}
+      {{ end }}
+
+      {{ range sort $months "Key" "desc" }}
+      {{ $monthCount := len .Pages }}
+
+        {{ $t := time (print .Key "-01") }}
+        <details style="margin-left: 1em; margin-top: 8px;">
+          <summary><strong>{{ $t.Format "January" }} ({{ $monthCount }})</strong></summary>
+          <ul style="margin-left: 32px;">
+            {{ range .Pages }}
+              <li style="margin-top: 8px; margin-bottom: 8px;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{ end }}
+          </ul>
+        </details>
+
+      {{ end }}
+    </details>
+  {{ end }}
+</div>
