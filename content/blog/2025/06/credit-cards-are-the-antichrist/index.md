@@ -11,11 +11,11 @@ Economies have pretty much always relied on debt. This isn't some modern innovat
 
 Credit cards are designed—*intentionally*—to rope people in, especially young people, and turn them into lifelong debt slaves. If you don’t pay off your balance in full, it racks up serious interest. Add in late fees, annual fees, and penalty [APRs](https://en.wikipedia.org/wiki/Annual_percentage_rate), and it can become a brutal cycle of financial strain.
 
-People tend to spend more when using credit cards than when paying with cash. That’s because there’s no immediate sense of loss. It detaches you from the consequences. Naturally, this encourages poor budgeting and impulse buying. So when online services *force* you to use a credit card, it’s especially scummy.
+People tend to spend more when using credit cards than when paying with cash. That’s because there’s no immediate sense of loss. It detaches you from the consequences. Naturally, this encourages poor budgeting and impulse buying. So when online services *force* you to use a credit card, it’s especially shitty.
 
 They lure people into living beyond their means and chasing materialism, both directly opposed to [Jesus’ warning about storing up treasures on Earth](https://www.biblegateway.com/passage/?search=Matthew%206%3A19-21&version=NKJV).
 
-Some people will say, *“Just be more responsible, bro lol.”*
+Some people will say, *“just be more responsible, bro lol.”*
 
 As if any societal problem in history has ever been solved by telling people to *“just”* do anything. No one in the history of ever has *just* done anything. And they’re not going to start now.
 
