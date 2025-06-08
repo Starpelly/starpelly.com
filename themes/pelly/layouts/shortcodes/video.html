@@ -1,0 +1,7 @@
+{{/* get file that matches the filename as specified as src="" in shortcode */}}
+{{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
+
+ <video width="100%" controls style="{{ .Get "style" | safeCSS | default "" }}">
+  <source src="{{ $src.RelPermalink }}" type="video/webm">
+Your browser does not support the video tag.
+</video> 
