@@ -1,7 +1,6 @@
 +++
 title = 'Getting Frontpaged on Newgrounds'
 date = 2025-09-30T03:49:57-04:00
-draft = true
 +++
 
 Ever since I was a small child, I can remember thinking getting frontpaged on Newgrounds was the thing you did when you "made it".
