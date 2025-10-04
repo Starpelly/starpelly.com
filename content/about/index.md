@@ -9,7 +9,7 @@ I'm also a devout Christian and I might make a few posts about theology.
 
 # SNCA (Shit nobody cares about)
 
-* My birthday is on *January 31st*
+* My birthday is on **January 31st**
 * My favorite color is **orange**
 * My favorite food is **spaghetti with marinara sauce**
 * My favorite sport is **baseball**
