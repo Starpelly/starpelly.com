@@ -9,14 +9,14 @@ I'm also a devout Christian and I might make a few posts about theology.
 
 # SNCA (Shit nobody cares about)
 
-* My birthday is on January 31st.
-* My favorite color is orange
-* My favorite food is **spaghetti with marinara sauce**.
+* My birthday is on *January 31st*
+* My favorite color is **orange**
+* My favorite food is **spaghetti with marinara sauce**
 * My favorite sport is **baseball**
 * My least favorite sport is **golf**
 * My favorite video game is **Pizza Tower**
 * I voted for Peter Sonski in the 2024 US presidential election
-* I scored "INTJ" on that one pseudoscientific personality quiz.
+* I scored "INTJ" on that one pseudoscientific personality quiz
 * I have over 20,000 beatpoints in the game "Just Shapes & Beats"
 
 # Work
