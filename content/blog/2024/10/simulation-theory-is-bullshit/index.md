@@ -15,7 +15,7 @@ I find it stupidly offensive when some redditor dismisses me as 'insane' or 'rid
 Ever since I've first heard about it back when I was in 3rd grade, it always sounded off to me. I’ve always found the
 hypothesis both dull and unconvincing, as it borrows heavily from the core principles of general deism, yet then asserts
 that the creator of this universe is finite. This finite creator concept rests on the assumption that because humans
-have developed relatively fast computers—hardly remarkable given theoretical limitations—it would therefore be feasible
+have developed relatively fast computers, hardly remarkable given theoretical limitations, it would therefore be feasible
 for some 'greater finite' being to create a universe that appears infinitely complex on both macro and micro levels.
 
 They also don't seem to account for the fact that computers can break down, too. If it was true, we should at least be
