@@ -30,7 +30,7 @@ in my mom's basement using nothing but Unity and my hopes and dreams. And I face
 
 Do you want to high five? Ask me a question? Tell me how much of a piece of shit I am? Are you a game company and want to send me a cease and desist?
 
-Email me at starpelly@boxsubmus.com
+Email me at pelly@boxsubmus.com
 
 # Advertising on starpelly.com
 
