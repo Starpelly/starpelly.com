@@ -27,6 +27,19 @@ var myPix = new Array(
 	"/assets/randomimages/legacy/OBg0cHi.gif",
 	"/assets/randomimages/legacy/tenor.gif",
 	"/assets/randomimages/legacy/x0qmi5nO_400x400.jpg",
+
+	// New ones! (12/7/25)
+
+	"/assets/randomimages/tripodfacereveal.PNG",
+	"/assets/randomimages/FMjHSomVIAAwPcE.jpg",
+	"/assets/randomimages/GqRU1wPXEAAylEk.jpg",
+	"/assets/randomimages/GLepXAjWwAIFgrX.jpg",
+	"/assets/randomimages/GrG-ApFWEAAsl7F.jpg",
+	"/assets/randomimages/Gg06FkgWsAAqve-.jpg",
+	"/assets/randomimages/Gxsu8iJWcAA1Gt-.jpg",
+	"/assets/randomimages/horrors.png",
+	"/assets/randomimages/trolled.gif",
+	"/assets/randomimages/groomed.gif",
 	); /* i'll add more eventually  */
 
 function downloadImage(url, name) {
