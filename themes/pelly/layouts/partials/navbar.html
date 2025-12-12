@@ -32,16 +32,16 @@
                     ) "GitHubLink" }}
 
                     {{ partialCached "navbar/social-link.html" (dict
-                        "title" "Newgrounds"
-                        "link" "https://starpelly.newgrounds.com"
-                        "src"  "/assets/Images/social/newgrounds.svg"
-                    ) "NewgroundsLink" }}
-
-                    {{ partialCached "navbar/social-link.html" (dict
                         "title" "Steam"
                         "link" "https://steamcommunity.com/id/starpelly/"
                         "src"  "/assets/Images/social/steam.svg"
                     ) "SteamLink" }}
+
+                                        {{ partialCached "navbar/social-link.html" (dict
+                        "title" "Newgrounds"
+                        "link" "https://starpelly.newgrounds.com"
+                        "src"  "/assets/Images/social/newgrounds.svg"
+                    ) "NewgroundsLink" }}
 
                     {{ partialCached "navbar/social-link.html" (dict
                         "title" "RSS Feed"
@@ -58,12 +58,13 @@
                         "src"  "/assets/Images/social/substack.svg"
                     ) "SubstackLink" }}
 
+                    {{/*
                     {{ partialCached "navbar/social-link.html" (dict
                         "title" "Bluesky (I don't use this)"
                         "link" "https://bsky.app/profile/starpelly.com"
                         "src"  "/assets/Images/social/bluesky.svg"
                     ) "BlueskyLink" }}
-
+                    */}}
                     {{ partialCached "navbar/social-link.html" (dict
                         "title" "osu!"
                         "link" "https://osu.ppy.sh/users/11549458"
