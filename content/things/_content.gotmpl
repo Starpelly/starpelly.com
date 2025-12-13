@@ -1,0 +1,22 @@
+{{- $data := slice }}
+{{- with os.ReadFile "data/things.json" }}
+  {{- $data = . | transform.Unmarshal }}
+{{- end }}
+
+{{- range $data }}
+  {{- $params := dict
+    "link" .link
+    "thumb" .thumb
+    "type" .type
+    "title" .title
+  }}
+  {{- $dates := dict "date" (time .date) }}
+  {{- $page := dict
+    "kind" "page"
+    "path" (printf "%s/%s" .type .id)
+    "title" .title
+    "dates" $dates
+    "params" $params
+  }}
+  {{- $.AddPage $page }}
+{{- end }}

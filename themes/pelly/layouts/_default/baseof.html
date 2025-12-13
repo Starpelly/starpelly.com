@@ -15,29 +15,6 @@
           <main>
             {{ block "main" . }}{{ end }}
           </main>
-
-          {{ if .IsHome }}
-
-          <nav class="pagination" role="navigation">
-            <a class="pagination-previous" {{ if .Paginator.HasPrev }} href="{{ .Paginator.Prev.URL }}" {{ else }} disabled {{ end }}>
-              <i>arrow_left</i>
-            </a>
-            <a class="pagination-next" {{ if .Paginator.HasNext }} href="{{ .Paginator.Next.URL }}" {{ else }} disabled {{ end }}>
-              <i>arrow_right</i>
-            </a>
-
-            <ul class="pagination-list">
-            {{ range .Paginator.Pagers }}
-              <li>
-                <a class="pagination-link {{ if eq .URL $.Paginator.URL }} is-current {{ end }}" href="{{ .URL }}">
-                  {{ .PageNumber }}
-                </a>
-              </li>
-            {{ end }}
-            </ul>
-          </nav>
-
-          {{ end }}
         </div>
       </div>
     </div>

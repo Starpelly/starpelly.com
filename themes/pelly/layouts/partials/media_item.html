@@ -1,0 +1,14 @@
+<a href="{{ .srcLink }}" target="_blank">
+	<div class="mediaitem" data-video-id="{{ .videoid }}" data-video-type="{{ .type }}">
+		<div class="mediaitem-thumb">
+			<img src="{{ .srcThumb }}">
+		</div>
+		<div class="mediaitem-type">
+			{{ .type }}
+		</div>
+		<div class="mediaitem-data">
+			<span class="mediaitem-title">{{ .title }}</span>
+			<span class="mediaitem-date">{{ .date }}</span>
+		</div>
+	</div>
+</a>

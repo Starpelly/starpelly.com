@@ -1,0 +1,14 @@
+<div class="comments">
+    <h2>Comments</h2>
+    <div id="isso-thread"></div>
+
+    {{ $style_isso := resources.Get "/scss/isso.scss" | resources.ToCSS | resources.Fingerprint }}
+    <script
+        data-isso="https://comments.starpelly.com/"
+        data-isso-postbox-author-placeholder-text-en="Aniki"
+		data-isso-postbox-email-placeholder-text-en="pe@ppy.sh"
+		data-isso-postbox-website-placeholder-text-en="https://example.com"
+        data-isso-css-url="{{ $style_isso.Permalink }}"
+        src="https://comments.starpelly.com/js/embed.min.js">
+    </script>
+</div>

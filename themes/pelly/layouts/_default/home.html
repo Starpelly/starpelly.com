@@ -6,9 +6,9 @@
 
   
   {{ range $paginator.Pages }}
-
-  {{ partial "article.html" (dict "Page" . "showSummary" false) }}
-
+      {{ partial "article.html" (dict "Page" . "showSummary" false) }}
   {{ end }}
+
+  {{ partial "pagination.html" . }}
   
 {{ end }}

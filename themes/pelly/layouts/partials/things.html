@@ -1,0 +1,13 @@
+{{/* Accept optional "showAll" parameter to show all site pages vs section pages */}}
+{{ $showAll := .showAll | default false }}
+{{ $ctx := .ctx }}
+{{ $pages := $ctx.Pages }}
+{{ if $showAll }}
+  {{ $pages = $ctx.Site.RegularPages }}
+{{ end }}
+<div class="medialist">
+{{ range ($ctx.Paginate (where $pages "Params.thumb" "!=" nil) 5).Pages }}
+	{{ $DateField := (printf "%s" (time.Format "2006-01-02" .Date))}}
+	{{ partial "media_item" ( dict "srcLink" .Params.link "srcThumb" .Params.thumb "title" .Params.title "date" $DateField "type" .Params.type ) }}
+{{ end }}
+</div>

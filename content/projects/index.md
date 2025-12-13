@@ -1,5 +1,6 @@
 +++
 title = 'Projects'
+disableComments = true
 +++
 
 # Games

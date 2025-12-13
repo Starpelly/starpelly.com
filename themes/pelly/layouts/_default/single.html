@@ -2,14 +2,8 @@
 
 {{ partial "article.html" (dict "Page" . "showSummary" false) }}
 
-{{ if and (eq .Kind "page") (eq .Section "blog") }}
-<div class="comments">
-    <h1>Comments</h1>
-    <div id="isso-thread"></div>
-
-    {{ $style_isso := resources.Get "/scss/isso.scss" | resources.ToCSS | resources.Fingerprint }}
-    <script data-isso="https://comments.starpelly.com/" src="https://comments.starpelly.com/js/embed.min.js" data-isso-css-url="{{ $style_isso.Permalink }}"></script>
-</div>
+{{ if not .Params.disableComments }}
+{{ partial "comments" }}
 {{ end }}
 
 {{ end }}

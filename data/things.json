@@ -1,0 +1,106 @@
+[
+    {
+        "id": "braid-anniversary-edition",
+        "type": "game",
+        "title": "Braid, Anniversary Edition",
+        "date": "2025-04-02",
+        "link": "https://store.steampowered.com/app/499180/",
+        "thumb": "/things/game_2024-05-16.jpg"
+    },
+    {
+        "id": "tomorrow-corporation-tech-demo",
+        "type": "video",
+        "title": "Tomorrow Corporation Tech Demo",
+        "date": "2024-12-08",
+        "link": "https://www.youtube.com/watch?v=72y2EC5fkcE",
+        "thumb": "/things/video_2023-12-19.webp"
+    },
+    {
+        "id": "emergency-alert",
+        "type": "story",
+        "title": "Emergency Alert: Do Not Look At the Sky",
+        "date": "2024-12-08",
+        "link": "https://www.reddit.com/r/nosleep/comments/1grzi24/emergency_alert_do_not_look_at_the_sky/",
+        "thumb": "https://styles.redditmedia.com/t5_2rm4d/styles/communityIcon_q054jahxvm5b1.png?width=128&frame=1&auto=webp&s=6e468933f22a2b126b317f9d42bbcb4748acc865"
+    },
+    {
+        "id": "making-fiends",
+        "type": "tv",
+        "title": "Making Fiends",
+        "date": "2025-12-13",
+        "link": "http://www.makingfiends.com/",
+        "thumb": "/things/makingfiends.jpg"
+    },
+    {
+        "id": "libertarianism",
+        "type": "article",
+        "title": "Not Even Libertarians Believe in Libertarianism",
+        "date": "2025-06-02",
+        "link": "https://lukesmith.xyz/articles/libertarianism/",
+        "thumb": "https://lukesmith.xyz/pix/amanet.jpg"
+    },
+    {
+        "id": "rendering-images-hugo",
+        "type": "article",
+        "title": "Processing Responsive Images with Hugo",
+        "date": "2024-12-09",
+        "link": "https://laurakalbag.com/processing-responsive-images-with-hugo/",
+        "thumb": ""
+    },
+    {
+        "id": "will-you-snail",
+        "type": "game",
+        "title": "Will You Snail?",
+        "date": "2025-04-02",
+        "link": "https://store.steampowered.com/app/1115050/Will_You_Snail/",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1115050/header.jpg?t=1727865643"
+    },
+    {
+        "id": "animal-well",
+        "type": "game",
+        "title": "Animal Well",
+        "date": "2025-04-02",
+        "link": "https://store.steampowered.com/app/813230/ANIMAL_WELL/",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813230/header.jpg?t=1736282851"
+    },
+    {
+        "id": "animal-well",
+        "type": "game",
+        "title": "Animal Well",
+        "date": "2025-04-02",
+        "link": "https://store.steampowered.com/app/813230/ANIMAL_WELL/",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813230/header.jpg?t=1736282851"
+    },
+    {
+        "id": "pizza-tower",
+        "type": "game",
+        "title": "Pizza Tower",
+        "date": "2025-04-02",
+        "link": "https://store.steampowered.com/app/2231450/Pizza_Tower/",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231450/header.jpg?t=1732516978"
+    },
+    {
+        "id": "getting-over-it",
+        "type": "game",
+        "title": "Getting Over It with Bennett Foddy",
+        "date": "2025-04-02",
+        "link": "https://store.steampowered.com/app/240720/Getting_Over_It_with_Bennett_Foddy/",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/240720/header.jpg?t=1666987027"
+    },
+    {
+        "id": "sbox",
+        "type": "game",
+        "title": "s&box",
+        "date": "2025-04-02",
+        "link": "https://store.steampowered.com/app/590830/sbox/",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/590830/e391339b0b1a416040ca8a202e270ea039ee315b/header.jpg?t=1764251195"
+    },
+    {
+        "id": "sonic-for-hire",
+        "type": "tv",
+        "title": "Sonic For Hire",
+        "date": "2025-12-13",
+        "link": "https://www.youtube.com/playlist?list=PLFvHZE8rKQeNlXz2kd8QBoVGV7VOoCkPp",
+        "thumb": "/things/sonicforhire.jpg"
+    }
+]
