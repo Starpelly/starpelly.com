@@ -22,3 +22,7 @@ This will be fancier... eventually
 * https://store.steampowered.com/app/2231450/Pizza_Tower/
 * https://store.steampowered.com/app/240720/Getting_Over_It_with_Bennett_Foddy/
 * https://store.steampowered.com/app/590830/sbox/
+
+# TV / Web Series
+* http://www.makingfiends.com/
+* https://www.youtube.com/watch?v=zBhjqvSwjVE&list=PLFvHZE8rKQeNlXz2kd8QBoVGV7VOoCkPp&index=10&t=2419s
