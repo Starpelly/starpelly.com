@@ -7,20 +7,13 @@
           <span class="draft">draft</span>
         {{ end }}
       </div>
-      {{ if .Page.Date }}
-      <div class="article-date">
-        <div class="article-day">
-          {{ .Page.Date.Format "01/02/2006" }}
-        </div>
-      </div>
-      {{ end }}
   </div>
 
   <div class="article-body">
     <hr class="main-hr">
 
     {{ with .Content }}<div>{{ . }}</div>{{ end }}
-    
+
 		<ul>
 			<li><a href="/things">All</a></li>
 			<li><a href="/things/article">Articles</a></li>
