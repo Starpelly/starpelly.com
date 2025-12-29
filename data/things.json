@@ -102,5 +102,13 @@
         "date": "2025-12-13",
         "link": "https://www.youtube.com/playlist?list=PLFvHZE8rKQeNlXz2kd8QBoVGV7VOoCkPp",
         "thumb": "/things/sonicforhire.jpg"
+    },
+    {
+        "id": "shader-debugging-raylib",
+        "type": "article",
+        "title": "Advanced shader debugging with raylib",
+        "date": "2025-12-28",
+        "link": "https://bedroomcoders.co.uk/posts/200",
+        "thumb": "/things/shader-debugging-raylib.png"
     }
 ]
