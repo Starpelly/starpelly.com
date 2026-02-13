@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="456" height="456" viewBox="0 0 456 456">
+  <g id="Layer_1">
+    <g id="Capa_1">
+      <rect width="456" height="456" fill="#6743ab"/>
+    </g>
+  </g>
+  <g id="Layer_2">
+    <g>
+      <path d="M119.05,89.36l-19.8,49.5v188.09h59.4v39.6h39.6l39.6-39.6h49.5l69.3-69.3V89.36H119.05ZM326.95,247.75l-39.6,39.6h-59.4l-39.6,39.6v-39.6h-49.5V119.05h188.09v128.69Z" fill="#fff"/>
+      <rect x="267.55" y="158.03" width="29.7" height="79.82" fill="#fff"/>
+      <rect x="198.25" y="158.03" width="29.7" height="79.82" fill="#fff"/>
+    </g>
+  </g>
+</svg>

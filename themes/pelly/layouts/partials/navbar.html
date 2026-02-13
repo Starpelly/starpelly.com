@@ -17,6 +17,12 @@
                         "src"  "/assets/Images/social/youtube.svg"
                     ) "YouTubeLink" }}
 
+                    {{ partialCached "navbar/social-link.html" (dict
+                        "title" "Twitch"
+                        "link" "https://twitch.tv/starpelly"
+                        "src"  "/assets/Images/social/twitch.svg"
+                    ) "TwitchLink" }}
+
                     <!--
                     {{ partialCached "navbar/social-link.html" (dict
                         "title" "Instagram"
@@ -36,12 +42,6 @@
                         "link" "https://steamcommunity.com/id/starpelly/"
                         "src"  "/assets/Images/social/steam.svg"
                     ) "SteamLink" }}
-
-                                        {{ partialCached "navbar/social-link.html" (dict
-                        "title" "Newgrounds"
-                        "link" "https://starpelly.newgrounds.com"
-                        "src"  "/assets/Images/social/newgrounds.svg"
-                    ) "NewgroundsLink" }}
 
                     {{ partialCached "navbar/social-link.html" (dict
                         "title" "RSS Feed"
@@ -82,6 +82,12 @@
                         "link" "https://flashii.net/profile.php?u=281"
                         "src"  "/assets/Images/social/flashii.svg"
                     ) "FlashiiLink" }}
+
+                    {{ partialCached "navbar/social-link.html" (dict
+                        "title" "Newgrounds"
+                        "link" "https://starpelly.newgrounds.com"
+                        "src"  "/assets/Images/social/newgrounds.svg"
+                    ) "NewgroundsLink" }}
 
                 </div>
             </div>
