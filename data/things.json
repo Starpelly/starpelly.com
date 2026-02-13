@@ -110,5 +110,13 @@
         "date": "2025-12-28",
         "link": "https://bedroomcoders.co.uk/posts/200",
         "thumb": "/things/shader-debugging-raylib.png"
+    },
+    {
+        "id": "one-formula-that-demystifies-3d-graphics",
+        "type": "video",
+        "title": "One Formula That Demystifies 3D Graphics",
+        "date": "2026-02-13",
+        "link": "https://www.youtube.com/watch?v=qjWkNZ0SXfo",
+        "thumb": "/things/qjWkNZ0SXfo.jpg"
     }
 ]
