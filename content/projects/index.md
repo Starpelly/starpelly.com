@@ -5,7 +5,7 @@ disableComments = true
 
 # Games
 
-[Motionmelody](https://motionmelody.com) - An experimental bullet-hell where the music tries to kill you.
+[Hyperspin](https://starpelly.itch.io/hyperspin) - An experimental rhythm game in which you control a circle that spins on a circle, and you tap circles. There are lots of circles.
 
 [Minesweeper+](https://starpelly.itch.io/minesweeper) - A minesweeper clone with levels.
 
@@ -22,6 +22,8 @@ disableComments = true
 # Tools
 
 [StarpellyLib](https://github.com/Starpelly/StarpellyLib) - General helper tools for Unity.
+
+[Polychan](https://polychan.net) - A 4chan desktop app because I hate the web!
 
 # Extras
 

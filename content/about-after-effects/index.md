@@ -1,5 +1,6 @@
 +++
 title = 'About After Effects'
+disableComments = true
 +++
 
 What is After Effects and How do I use it?

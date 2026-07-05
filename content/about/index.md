@@ -1,23 +1,16 @@
 +++
 title = 'About Me'
+disableComments = true
 +++
+
+{{< img src="pfp1.jpg" style="width: 210px; float: left; margin-right: 15px" >}}
 
 Hi, I made this site cause I had the domain and the old site looked boring as hell.
 I'm a visual effects artist and computer programmer. I'm an American interested in making and sharing open source software and video games.
 
 I'm also a devout Christian and I might make a few posts about theology.
 
-# SNCA (Shit nobody cares about)
-
-* My birthday is on **January 31st**
-* My favorite color is **orange**
-* My favorite food is **spaghetti with marinara sauce**
-* My favorite sport is **baseball**
-* My least favorite sport is **golf**
-* My favorite video game is **Pizza Tower**
-* I voted for Peter Sonski in the 2024 US presidential election
-* I scored "INTJ" on that one pseudoscientific personality quiz
-* I have over 20,000 beatpoints in the game "Just Shapes & Beats"
+My dream is to one day make 1 billion dollars and move to the woods with my non gay platonic asexual lover.
 
 # Work
 
