@@ -8,3 +8,11 @@ Steam Next Fest is about a month and a half away, which means I need to submit H
 # Day 1 - 9/4/26
 
 I didn't do much besides work on maps. I also worked on improving the editor UX for a bit. For whatever reason clicking on objects would only select them when the mouse button was *released* instead of *pressed*. I have no idea why, but that was changed. It feels *so much better* to use now.
+
+# Day 2 - 9/5/26
+
+Not much work done today besides simple code changes and starting work on a new song. I've added a new feature for text objects where you can coordinate using either coordinates (x & y components) or radial coordinates (distance & angle). I don't feel very productive right now, which makes me feel kinda sad!
+
+Side tangent: I've recently found out about this thing called "GPT-6 Astra", which people can use to make shitty tech demos or whatever. I've already given my thoughts on AI generated stuff a couple blog posts ago, but let me just make the point again (in case I haven't...), I will never support, nor pay for any product which uses "Generative AI" in any front-facing way (art, music, etc..). If I find out a game I'm playing uses AI in this manner, I will put it down immediately, leave a negative review, and refund it if possible as quickly as possible. It is an insult to life itself.
+
+{{< img src="lifeitself.png" >}}
