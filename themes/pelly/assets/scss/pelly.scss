@@ -18,10 +18,10 @@ body {
 }
 
 body {
-	font-family: /*$font-text,*/ "Lucida Grande", 'Space Grotesk', sans-serif;
+	font-family: /*$font-text,*/ "Space Grotesk", "Lucida Grande", 'Space Grotesk', sans-serif;
 	font-weight: normal;
 	// font-size: 13px;
-	font-size: 14px;
+	font-size: 15px;
 	overflow-y: scroll;
 
 	color: $color-text;
