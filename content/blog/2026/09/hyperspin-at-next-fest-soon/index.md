@@ -15,8 +15,12 @@ Not much work done today besides simple code changes and starting work on a new 
 
 Side tangent: I've recently found out about this thing called "GPT-6 Astra", which people can use to make shitty tech demos or whatever. I've already given my thoughts on AI generated stuff a couple blog posts ago, but let me just make the point again (in case I haven't...), I will never support, nor pay for any product which uses "Generative AI" in any front-facing way (art, music, etc..). If I find out a game I'm playing uses AI in this manner, I will put it down immediately, leave a negative review, and refund it if possible as quickly as possible. It is an insult to life itself.
 
+{{< img src="lifeitself.png" >}}
+
 # Day 3 - 9/6/26
 
 No work done today. I had to do yard work.
 
-{{< img src="lifeitself.png" >}}
+# Day 4 - 9/7/26
+
+Worked on maps, streamed on Twitch. I don't do that often anymore!
