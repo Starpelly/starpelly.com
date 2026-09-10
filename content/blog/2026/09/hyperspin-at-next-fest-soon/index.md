@@ -28,3 +28,7 @@ Worked on maps, streamed on Twitch. I don't do that often anymore!
 # Day 5 - 9/8/26
 
 The map I made yesterday might not even make it into the game because of Shirobon's licensing changes. I'll need to review that. Sad. I've been doing miscellaneous editor improvements today, but I've mostly been working on Skia bindings for Beef to use in the game.
+
+# Day 6 - 9/9/26
+
+Worked on editor stuff. Again, not much work today. I've been feeling very depressed lately, which sucks.
