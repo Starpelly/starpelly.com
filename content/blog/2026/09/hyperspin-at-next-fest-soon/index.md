@@ -32,3 +32,7 @@ The map I made yesterday might not even make it into the game because of Shirobo
 # Day 6 - 9/9/26
 
 Worked on editor stuff. Again, not much work today. I've been feeling very depressed lately, which sucks.
+
+# Day 7 - 9/10/26
+
+It sucks that I've been going through a depressive episode lately. I absolutely do not want to work on this game right now, which is very unfortunate given the circumanstances. I'm hoping I can at least get the discipline to finish it...
