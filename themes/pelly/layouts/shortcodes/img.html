@@ -1,5 +1,12 @@
 {{/* get file that matches the filename as specified as src="" in shortcode */}}
-{{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
+{{ $original := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
+
+{{ $src := $original }}
+{{ if $original }}
+    {{ if in (slice "png" "jpeg" "jpg") $original.MediaType.SubType }}
+        {{ $src = $original.Resize (printf "%dx webp q85" $original.Width) }}
+    {{ end }}
+{{ end }}
 
 <div class="image-container"
     style="{{ .Get "style" | safeCSS | default "" }}"
@@ -8,6 +15,7 @@
     src="{{ $src.RelPermalink }}"
     class="clickable-image"
     data-full="{{ $src.RelPermalink }}"
+    data-original="{{ $original.RelPermalink }}"
     {{ with .Get "alt" }}
         alt="{{.}}"
     {{ else }}
@@ -28,7 +36,7 @@
 <div id="lightbox" class="lightbox hidden">
   <div class="lightbox-content">
     <img id="lightbox-img" src="" alt="Full Size" />
-    <a id="view-original" href="" target="_blank">View original</a>
+    <a id="view-original" href="{{ $original.RelPermalink }}" target="_blank">View original</a>
     <span class="close">&times;</span>
   </div>
 </div>

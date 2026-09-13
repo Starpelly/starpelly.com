@@ -9,8 +9,9 @@ const closeBtn = document.querySelector('.close');
 images.forEach(img => {
   img.addEventListener('click', () => {
     const fullImg = img.getAttribute('data-full');
+    const originalImg = img.getAttribute('data-original');
     lightboxImg.src = fullImg;
-    viewOriginal.href = fullImg;
+    viewOriginal.href = originalImg;
     lightbox.classList.remove('hidden');
   });
 });

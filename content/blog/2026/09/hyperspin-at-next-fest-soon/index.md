@@ -15,7 +15,7 @@ Not much work done today besides simple code changes and starting work on a new 
 
 Side tangent: I've recently found out about this thing called "GPT-6 Astra", which people can use to make shitty tech demos or whatever. I've already given my thoughts on AI generated stuff a couple blog posts ago, but let me just make the point again (in case I haven't...), I will never support, nor pay for any product which uses "Generative AI" in any front-facing way (art, music, etc..). If I find out a game I'm playing uses AI in this manner, I will put it down immediately, leave a negative review, and refund it if possible as quickly as possible. It is an insult to life itself.
 
-{{< img src="lifeitself.png" >}}
+{{< img src="lifeitself.png" style="max-width: 450px;" >}}
 
 # Day 3 - 9/6/26
 
@@ -36,3 +36,12 @@ Worked on editor stuff. Again, not much work today. I've been feeling very depre
 # Day 7 - 9/10/26
 
 It sucks that I've been going through a depressive episode lately. I absolutely do not want to work on this game right now, which is very unfortunate given the circumanstances. I'm hoping I can at least get the discipline to finish it...
+
+# Day 8 - 9/11/26
+
+I've been feeling a lot better today and I've actually done enough work to get a new song off the ground. It's very unconventional and I'm not sure if people will like it... Oh well!
+{{< img src="dearest.png" >}}
+
+# Day 9 - 9/12/26
+
+Didn't have much of a chance to work on much today, I was at work (like my actual real job) for most of it. Sadge.
