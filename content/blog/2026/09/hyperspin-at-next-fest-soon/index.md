@@ -44,4 +44,14 @@ I've been feeling a lot better today and I've actually done enough work to get a
 
 # Day 9 - 9/12/26
 
-Didn't have much of a chance to work on much today, I was at work (like my actual real job) for most of it. Sadge.
+Didn't have much of a chance to work on much today, I was at work (like my actual real job) for most of it. Sadge.# 
+
+# Day 10 - 9/13/26
+
+My job called me today for an emergency so I ended up spending about 5 hours at work today instead of working on the game. Unfortunate. But nevertheless, I was able to get a lot done today and I'm feeling quite happy about it!
+
+I've been working on redesigning the editor UI because it was just so ugly, and after about 12 hours of work, it now looks much better!
+
+{{< img src="new_editor_ui.png" >}}
+
+I had to recompile dear imgui and modify it to make this look possible, which was kind of a pain because dear imgui isn't that well designed, but it was *so* worth it. It looks so much nicer than before. Eventually I want to look into recreating the editor from scratch, maybe during or after Early Access, but for now, this will work great! I'm feeling good about the game now.
