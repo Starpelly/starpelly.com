@@ -59,3 +59,7 @@ I had to recompile dear imgui and modify it to make this look possible, which wa
 # Day 11 - 9/14/26
 
 Boring day. Just worked on text and stuff. Slowly going through my todo list.
+
+# Day 12 - 9/15/26
+
+I've pushed out a new update to the Playtesting server today. Felt good about that. Mudstep has supposedly started working on the last two songs for the game so that's exciting.
