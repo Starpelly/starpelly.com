@@ -63,3 +63,11 @@ Boring day. Just worked on text and stuff. Slowly going through my todo list.
 # Day 12 - 9/15/26
 
 I've pushed out a new update to the Playtesting server today. Felt good about that. Mudstep has supposedly started working on the last two songs for the game so that's exciting.
+
+# Day 13 - 9/16/26
+
+Spent very little time actually working on the game. I spent most of today planning out the songs and systems I need to polish on my todo list. As it turns out I'm very close to finishing the game!
+
+# Day 14 - 9/17/26
+
+Had to work (my actual other job) today, not much done besides more planning.
