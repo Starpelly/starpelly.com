@@ -71,3 +71,12 @@ Spent very little time actually working on the game. I spent most of today plann
 # Day 14 - 9/17/26
 
 Had to work (my actual other job) today, not much done besides more planning.
+
+# Day 15 - 9/18/26
+
+Most of the game is done at this point, I'm just working through polishing things up. Today I've decided that the title screen needs a new design. I wanted to make it look like some of the promotional art used on the store page. Doing things like this is just a few million little tweaks all the time and I'm not done. But I think it's coming along well.
+
+{{< img src="day_15/storepage.png" caption="Promotional art" >}}
+{{< img src="day_15/wip_newtitle.png" caption="In engine" >}}
+
+The arena behind the logo is actually a map playing in real time. Thanks to the custom game engine this was surprisingly simple to hook up! I still need to make it loop properly and stuff. We'll see how it goes.
