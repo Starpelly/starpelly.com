@@ -80,3 +80,11 @@ Most of the game is done at this point, I'm just working through polishing thing
 {{< img src="day_15/wip_newtitle.png" caption="In engine" >}}
 
 The arena behind the logo is actually a map playing in real time. Thanks to the custom game engine this was surprisingly simple to hook up! I still need to make it loop properly and stuff. We'll see how it goes.
+
+# Day 16 - 9/19/26
+
+I've been experimenting more with the new title screen. I decided to try out a new logo and lean further into the "Wii Play" look the game is going for. Wii Play is one of my favorite aesthetics, so I really wanted to take inspiration from it.
+
+{{< img src="day_16/new_logo.png" >}}
+
+I also pushed out a new update today. I'm hoping to push out an update every two days as a productivity goal while we make it over the finish line!
