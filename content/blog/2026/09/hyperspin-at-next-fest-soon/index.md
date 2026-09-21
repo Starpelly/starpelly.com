@@ -88,3 +88,7 @@ I've been experimenting more with the new title screen. I decided to try out a n
 {{< img src="day_16/new_logo.png" >}}
 
 I also pushed out a new update today. I'm hoping to push out an update every two days as a productivity goal while we make it over the finish line!
+
+# Day 17 - 9/20/26
+
+Worked on the title screen some more.
