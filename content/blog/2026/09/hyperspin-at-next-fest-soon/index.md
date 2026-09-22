@@ -92,3 +92,7 @@ I also pushed out a new update today. I'm hoping to push out an update every two
 # Day 17 - 9/20/26
 
 Worked on the title screen some more.
+
+# Day 18 - 9/21/26
+
+Didn't really work today.
