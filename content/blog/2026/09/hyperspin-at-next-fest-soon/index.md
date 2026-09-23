@@ -96,3 +96,16 @@ Worked on the title screen some more.
 # Day 18 - 9/21/26
 
 Didn't really work today.
+
+# Day 19 - 9/22/26
+
+I spend one half of the day adding folders to song select, this was somehow missing even though it's a quite essential feature. So, I'm glad that's finally in.
+
+I spent the other half optimizing the editor. The results are fantastic! We've gotten super intense maps up from 100FPS to **1000FPS**! I had to design a texture packer module for the engine to make this work, but I'm glad I've finally gotten that out of the way.
+
+<div style="column-count: 2; column-gap: 4px; margin-top: 1.5em; margin-bottom: 4px;">
+    {{< img src="day_19/before.png" style="margin-bottom: 4px;" caption="before" >}}
+    {{< img src="day_19/after.png" style="margin-bottom: 4px;" caption="after" >}}
+</div>
+
+The texture packer module also allowed me to optimize some screens that previously needed to create a new batch for each texture instance. That sped up the game a lot.
