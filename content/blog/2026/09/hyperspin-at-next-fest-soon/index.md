@@ -95,7 +95,7 @@ Worked on the title screen some more.
 
 # Day 18 - 9/21/26
 
-Didn't really work today.
+Didn't really work to
 
 # Day 19 - 9/22/26
 
@@ -109,3 +109,11 @@ I spent the other half optimizing the editor. The results are fantastic! We've g
 </div>
 
 The texture packer module also allowed me to optimize some screens that previously needed to create a new batch for each texture instance. That sped up the game a lot.
+
+# Day 20 - 9/23/26
+
+* Worked on maps.
+
+# Day 21 - 9/24/26
+
+* I've reworked the engine a little bit to be a little cleaner. Just housekeeping, nothing special.
