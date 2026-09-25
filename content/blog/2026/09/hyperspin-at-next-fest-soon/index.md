@@ -112,8 +112,8 @@ The texture packer module also allowed me to optimize some screens that previous
 
 # Day 20 - 9/23/26
 
-* Worked on maps.
+Worked on maps.
 
 # Day 21 - 9/24/26
 
-* I've reworked the engine a little bit to be a little cleaner. Just housekeeping, nothing special.
+I've reworked the engine a little bit to be a little cleaner. Just housekeeping, nothing special.
