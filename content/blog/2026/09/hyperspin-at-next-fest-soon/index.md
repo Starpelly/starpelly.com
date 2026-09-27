@@ -117,3 +117,13 @@ Worked on maps.
 # Day 21 - 9/24/26
 
 I've reworked the engine a little bit to be a little cleaner. Just housekeeping, nothing special.
+
+# Day 22 - 9/25/26
+
+I've begun working on a solitaire-like card game for some reason, I think I'm gonna put it in the game under an "extras" button in the title screen, or something.
+
+# Day 23 - 9/26/26
+
+One of our playtesters is working on an official map today, it's looking really cool! They've also reported some issues with the editor so I went and patched all those up.
+
+{{< img src="day_23/progress.png" >}}
