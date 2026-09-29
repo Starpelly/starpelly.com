@@ -127,3 +127,17 @@ I've begun working on a solitaire-like card game for some reason, I think I'm go
 One of our playtesters is working on an official map today, it's looking really cool! They've also reported some issues with the editor so I went and patched all those up.
 
 {{< img src="day_23/progress.png" >}}
+
+# Day 24 - 2/27/26
+
+Busywork, nothing of interest.
+
+# Day 25 - 2/28/26
+
+Previously, maps were identified in the save file by their `UUID`, which was a field in the map's file. This always sucked a little bit, so now they're stored by their hash, which is just the content of the file encrypted by SHA256 encoding. This has inherent improvements in that only the same identical files will have the same hash.
+
+I've added some QOL improvements to the editor, including icons. Which I think makes things feel more friendly.
+
+I'm still waiting for Mudstep to finish some music, so I've decided to go through all the steam assets and clean them up a bit. Updating the logo was a big one, it feels a lot more "friendly" now!
+
+{{< img src="day_25/steam.png" >}}
