@@ -141,3 +141,7 @@ I've added some QOL improvements to the editor, including icons. Which I think m
 I'm still waiting for Mudstep to finish some music, so I've decided to go through all the steam assets and clean them up a bit. Updating the logo was a big one, it feels a lot more "friendly" now!
 
 {{< img src="day_25/steam.png" >}}
+
+# Day 26 - 9/29/26
+
+I've made a few builds today, turned out to break everything (including builds I sent to Valve), so it was fun fixing those as quickly as I possibly could.
