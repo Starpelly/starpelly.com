@@ -145,3 +145,13 @@ I'm still waiting for Mudstep to finish some music, so I've decided to go throug
 # Day 26 - 9/29/26
 
 I've made a few builds today, turned out to break everything (including builds I sent to Valve), so it was fun fixing those as quickly as I possibly could.
+
+# Day 27 - 9/30/26
+
+Polishing up menu animations, it still doesn't look very nice. But oh well, one step at a time.
+
+I twisted my ankle walking down the stairs so I could barely walk for the rest of the day. I ended up feeling very sick towards the end of the day, unfortunate as I still had to go to work, and I found out that my uncle died. So yeah, that wasn't very motivating. Not the best day.
+
+# Day 28 - 10/1/26
+
+Happy Spooky Month!!! I've spent most of the day working on cleaning up the codebase. I've finally decided to remove the "project manager screen" and instead have the editor handle all that stuff. I still haven't fully finished it as there are quite a few issues that will require a full rewrite of how the game reads levels in order to fix. I'm hoping I can get that finished sometime tomorrow.
