@@ -155,3 +155,11 @@ I twisted my ankle walking down the stairs so I could barely walk for the rest o
 # Day 28 - 10/1/26
 
 Happy Spooky Month!!! I've spent most of the day working on cleaning up the codebase. I've finally decided to remove the "project manager screen" and instead have the editor handle all that stuff. I still haven't fully finished it as there are quite a few issues that will require a full rewrite of how the game reads levels in order to fix. I'm hoping I can get that finished sometime tomorrow.
+
+# Day 29 - 10/2/26
+
+I've finished the rewrite and wow, it feels like a weight was just lifted off my shoulders. I spent most of the day just doing that.
+
+# Day 30 - 10/3/26
+
+Made a new playtester build today, felt productive. We're slowly getting through.
