@@ -163,3 +163,11 @@ I've finished the rewrite and wow, it feels like a weight was just lifted off my
 # Day 30 - 10/3/26
 
 Made a new playtester build today, felt productive. We're slowly getting through.
+
+# Day 31 - 10/4/26
+
+Nothing of interest today.
+
+# Day 32 - 10/5/26
+
+It was mostly a break day, didn't do much of anything. I start work on the trailer tomorrow, though.
